@@ -29,12 +29,15 @@ export const HISTORIC_TEAMS = {
   SK: { full: 'SK 와이번스', color: '#D8402C', abbr: 'SK', logo: 'sk' },
   넥센: { full: '넥센 히어로즈', color: '#7A2E8E', abbr: '넥센', logo: 'nexen' },
   우리: { full: '우리 히어로즈', color: '#0E4DA4', abbr: '우리', logo: 'woori' },
-  히어로즈: { full: '서울 히어로즈', color: '#7A2E8E', abbr: '히어로즈', logo: 'heroes' },
+  히어로즈: { full: '서울 히어로즈', color: '#7A2E8E', abbr: '히어로즈', logo: 'seoul' },
 }
 
 // 실제 로고 파일이 준비된 구단의 slug. web/public/logos/hist/{slug}.png 를 넣고
 // 여기에 slug 를 추가하면 배지 대신 그 로고가 표시된다.
-export const HIST_LOGO_READY = new Set([])
+export const HIST_LOGO_READY = new Set([
+  'haitai', 'ob', 'binggrae', 'taepyeong', 'ssangbangwool', 'hyundai', 'mbc',
+  'sammi', 'chungbo', 'sk', 'nexen', 'woori', 'seoul',
+])
 
 export function histLogoUrl(name) {
   const info = HISTORIC_TEAMS[name]
