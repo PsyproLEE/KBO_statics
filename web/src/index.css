@@ -634,6 +634,38 @@ tr.total-row td:first-child {
   margin-left: auto;
 }
 
+/* 모바일 스탯 선택 드롭다운 */
+.stat-picker {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.stat-picker .sp-label {
+  font-weight: 700;
+  font-size: 13px;
+  color: var(--ink-2);
+  flex: none;
+}
+
+.stat-picker select {
+  flex: 1;
+  background: var(--card);
+  border: 1.5px solid var(--ink);
+  color: var(--ink);
+  border-radius: var(--radius);
+  padding: 10px 12px;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: inherit;
+}
+
+.stat-picker select:focus {
+  outline: none;
+  border-color: var(--red);
+}
+
 /* ---------- 선수 상세 ---------- */
 .player-hero {
   display: flex;

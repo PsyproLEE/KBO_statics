@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useData, num, teamGamesMap, fmt } from '../lib/data.jsx'
+import { useIsMobile } from '../lib/useMobile.js'
 import { teamInfo } from '../lib/teams.js'
 import PlayerPhoto from './PlayerPhoto.jsx'
 import TeamLogo from './TeamLogo.jsx'
@@ -24,9 +25,19 @@ export default function Leaderboard({ rows, categories, columns, isQualified, st
   const [query, setQuery] = useState('')
   const [sort, setSort] = useState(null) // 표 헤더 클릭 정렬 (없으면 카테고리 순)
   const [includeAll, setIncludeAll] = useState(false) // 규정 미달 선수도 표에 포함
+  const isMobile = useIsMobile()
 
   const active = sort || { key: cat.key, asc: cat.asc, rate: cat.rate }
   const applyRate = active.rate && !includeAll
+  // 모바일: 넓은 표 대신 선택한 스탯 한 열만 표시 (드롭다운으로 선택)
+  const displayColumns = isMobile
+    ? columns.filter((c) => c.key === active.key)
+    : columns
+
+  const selectColumn = (key) => {
+    const base = categories.find((c) => c.key === key)
+    setSort({ key, asc: base?.asc ?? false, rate: base?.rate ?? false })
+  }
 
   // 상위 5명 리더 카드는 항상 규정 충족 선수 기준 (정확한 리더)
   const top5 = useMemo(() => {
@@ -160,9 +171,23 @@ export default function Leaderboard({ rows, categories, columns, isQualified, st
         )}
         <span className="note">
           총 {visible.length}명
-          {applyRate ? ' · 규정 충족만' : ''} · 열 제목을 누르면 정렬
+          {applyRate ? ' · 규정 충족만' : ''}
+          {isMobile ? '' : ' · 열 제목을 누르면 정렬'}
         </span>
       </div>
+
+      {isMobile && (
+        <div className="stat-picker">
+          <span className="sp-label">스탯 선택</span>
+          <select value={active.key} onChange={(e) => selectColumn(e.target.value)}>
+            {columns.map((c) => (
+              <option key={c.key} value={c.key}>
+                {c.label}
+              </option>
+            ))}
+          </select>
+        </div>
+      )}
 
       <div className="card table-wrap">
         <table className="stat">
@@ -170,7 +195,7 @@ export default function Leaderboard({ rows, categories, columns, isQualified, st
             <tr>
               <th className="plain">#</th>
               <th className="plain left">선수</th>
-              {columns.map((c) => (
+              {displayColumns.map((c) => (
                 <th
                   key={c.key}
                   className={active.key === c.key ? 'sorted' : ''}
@@ -203,7 +228,7 @@ export default function Leaderboard({ rows, categories, columns, isQualified, st
                       </span>
                     </Link>
                   </td>
-                  {columns.map((c) => (
+                  {displayColumns.map((c) => (
                     <td key={c.key} className={active.key === c.key ? 'hl' : ''}>
                       {fmt(r[c.key])}
                     </td>
