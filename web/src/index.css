@@ -1139,6 +1139,25 @@ a.title-card:hover {
   font-family: var(--serif);
 }
 
+.ps-subtitle {
+  margin: 20px 0 8px;
+  font-family: var(--serif);
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--ink-2);
+}
+
+.ps-name {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-weight: 700;
+}
+
+a.ps-name:hover .name {
+  color: var(--red);
+}
+
 /* ---------- 기타 ---------- */
 .load-state {
   padding: 120px 20px;

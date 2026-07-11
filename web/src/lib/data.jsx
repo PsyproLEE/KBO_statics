@@ -104,3 +104,12 @@ export function loadSeasonsList() {
   )
   return seasonsPromise
 }
+
+/** 최근 한국시리즈 개인 기록 (경기 박스스코어 집계) */
+let postseasonPromise = null
+export function loadPostseason() {
+  postseasonPromise ??= fetch(`${import.meta.env.BASE_URL}data/postseason.json`).then((r) =>
+    r.ok ? r.json() : {},
+  )
+  return postseasonPromise
+}
