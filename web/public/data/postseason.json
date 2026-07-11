@@ -1,6 +1,36 @@
 {
  "2025": {
   "games": 5,
+  "bracket": [
+   {
+    "round": "와일드카드",
+    "winner": "삼성",
+    "loser": "NC",
+    "winnerWins": 1,
+    "loserWins": 1
+   },
+   {
+    "round": "준플레이오프",
+    "winner": "삼성",
+    "loser": "SSG",
+    "winnerWins": 3,
+    "loserWins": 1
+   },
+   {
+    "round": "플레이오프",
+    "winner": "한화",
+    "loser": "삼성",
+    "winnerWins": 3,
+    "loserWins": 2
+   },
+   {
+    "round": "한국시리즈",
+    "winner": "LG",
+    "loser": "한화",
+    "winnerWins": 4,
+    "loserWins": 1
+   }
+  ],
   "hitters": [
    {
     "name": "문보경",
@@ -714,6 +744,36 @@
  },
  "2024": {
   "games": 5,
+  "bracket": [
+   {
+    "round": "와일드카드",
+    "winner": "KT",
+    "loser": "두산",
+    "winnerWins": 2,
+    "loserWins": 0
+   },
+   {
+    "round": "준플레이오프",
+    "winner": "LG",
+    "loser": "KT",
+    "winnerWins": 3,
+    "loserWins": 2
+   },
+   {
+    "round": "플레이오프",
+    "winner": "삼성",
+    "loser": "LG",
+    "winnerWins": 3,
+    "loserWins": 1
+   },
+   {
+    "round": "한국시리즈",
+    "winner": "KIA",
+    "loser": "삼성",
+    "winnerWins": 4,
+    "loserWins": 1
+   }
+  ],
   "hitters": [
    {
     "name": "김선빈",
@@ -1405,6 +1465,36 @@
  },
  "2023": {
   "games": 5,
+  "bracket": [
+   {
+    "round": "와일드카드",
+    "winner": "NC",
+    "loser": "두산",
+    "winnerWins": 1,
+    "loserWins": 0
+   },
+   {
+    "round": "준플레이오프",
+    "winner": "NC",
+    "loser": "SSG",
+    "winnerWins": 3,
+    "loserWins": 0
+   },
+   {
+    "round": "플레이오프",
+    "winner": "KT",
+    "loser": "NC",
+    "winnerWins": 3,
+    "loserWins": 2
+   },
+   {
+    "round": "한국시리즈",
+    "winner": "LG",
+    "loser": "KT",
+    "winnerWins": 4,
+    "loserWins": 1
+   }
+  ],
   "hitters": [
    {
     "name": "문보경",
@@ -2152,6 +2242,36 @@
  },
  "2022": {
   "games": 6,
+  "bracket": [
+   {
+    "round": "와일드카드",
+    "winner": "KT",
+    "loser": "KIA",
+    "winnerWins": 1,
+    "loserWins": 0
+   },
+   {
+    "round": "준플레이오프",
+    "winner": "키움",
+    "loser": "KT",
+    "winnerWins": 3,
+    "loserWins": 2
+   },
+   {
+    "round": "플레이오프",
+    "winner": "키움",
+    "loser": "LG",
+    "winnerWins": 3,
+    "loserWins": 1
+   },
+   {
+    "round": "한국시리즈",
+    "winner": "SSG",
+    "loser": "키움",
+    "winnerWins": 4,
+    "loserWins": 2
+   }
+  ],
   "hitters": [
    {
     "name": "최정",
@@ -2821,6 +2941,36 @@
  },
  "2021": {
   "games": 4,
+  "bracket": [
+   {
+    "round": "와일드카드",
+    "winner": "두산",
+    "loser": "키움",
+    "winnerWins": 1,
+    "loserWins": 1
+   },
+   {
+    "round": "준플레이오프",
+    "winner": "두산",
+    "loser": "LG",
+    "winnerWins": 2,
+    "loserWins": 1
+   },
+   {
+    "round": "플레이오프",
+    "winner": "두산",
+    "loser": "삼성",
+    "winnerWins": 2,
+    "loserWins": 0
+   },
+   {
+    "round": "한국시리즈",
+    "winner": "KT",
+    "loser": "두산",
+    "winnerWins": 4,
+    "loserWins": 0
+   }
+  ],
   "hitters": [
    {
     "name": "강백호",

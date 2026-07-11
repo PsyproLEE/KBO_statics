@@ -70,6 +70,29 @@ function PostseasonStats() {
         </span>
       </div>
 
+      {s.bracket?.length > 0 && (
+        <div className="bracket">
+          {s.bracket.map((b) => (
+            <div key={b.round} className={`bracket-row ${b.round === '한국시리즈' ? 'ks' : ''}`}>
+              <div className="br-round">{b.round}</div>
+              <div className="br-match">
+                <span className="br-team win">
+                  <TeamLogo team={b.winner} size={22} />
+                  <b>{b.winner}</b>
+                </span>
+                <span className="br-score">
+                  {b.winnerWins} <span className="dash">–</span> {b.loserWins}
+                </span>
+                <span className="br-team lose">
+                  <TeamLogo team={b.loser} size={22} />
+                  {b.loser}
+                </span>
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+
       <h3 className="ps-subtitle">🏏 타자</h3>
       <div className="card table-wrap">
         <table className="stat">

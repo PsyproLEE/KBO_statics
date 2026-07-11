@@ -50,6 +50,75 @@ def to_int(s):
         return 0
 
 
+POSTSEASON_ROUNDS = [('4', '와일드카드'), ('3', '준플레이오프'),
+                     ('5', '플레이오프'), ('7', '한국시리즈')]
+SCORE_RE = re.compile(r'^([가-힣A-Za-z]+)(\d+)vs(\d+)([가-힣A-Za-z]+)$')
+
+
+def series_results(session, year, srid):
+    """해당 시리즈(라운드)의 경기 결과 → (matchup 두 팀, 팀별 승수)."""
+    wins = {}
+    teams = []
+    for month in ('10', '11'):
+        r = session.post(
+            f'{BASE}/ws/Schedule.asmx/GetScheduleList',
+            data={'leId': '1', 'srIdList': srid, 'seasonId': str(year),
+                  'gameMonth': month, 'teamId': ''},
+            timeout=20,
+        )
+        try:
+            rows = r.json().get('rows', [])
+        except (json.JSONDecodeError, ValueError):
+            rows = []
+        for row in rows:
+            for c in row.get('row', []):
+                txt = re.sub('<[^>]+>', '', c.get('Text', '')).strip()
+                m = SCORE_RE.match(txt)
+                if not m:
+                    continue
+                away, a_sc, h_sc, home = m.group(1), int(m.group(2)), int(m.group(3)), m.group(4)
+                for t in (away, home):
+                    if t not in teams:
+                        teams.append(t)
+                    wins.setdefault(t, 0)
+                if a_sc > h_sc:
+                    wins[away] += 1
+                elif h_sc > a_sc:
+                    wins[home] += 1
+        time.sleep(0.15)
+    return teams, wins
+
+
+def build_bracket(session, year):
+    """포스트시즌 대진표: [{round, winner, loser, winnerWins, loserWins}]
+
+    진출팀 판정은 '다음 라운드에 등장하는 팀'으로 한다. 와일드카드는 동률이어도
+    상위 시드가 올라가므로 승수만으로는 판정할 수 없기 때문.
+    """
+    stages = []
+    for srid, label in POSTSEASON_ROUNDS:
+        teams, wins = series_results(session, year, srid)
+        if len(teams) >= 2:
+            stages.append({'label': label, 'teams': teams, 'wins': wins})
+
+    bracket = []
+    for i, st in enumerate(stages):
+        teams, wins = st['teams'], st['wins']
+        nxt = set(stages[i + 1]['teams']) if i + 1 < len(stages) else None
+        if nxt:
+            winner = next((t for t in teams if t in nxt), None)
+        else:  # 마지막 라운드(한국시리즈)는 승수로
+            winner = max(teams, key=lambda t: wins.get(t, 0))
+        if winner is None:
+            winner = max(teams, key=lambda t: wins.get(t, 0))
+        loser = next(t for t in teams if t != winner)
+        bracket.append({
+            'round': st['label'], 'winner': winner, 'loser': loser,
+            'winnerWins': wins.get(winner, 0), 'loserWins': wins.get(loser, 0),
+        })
+    return bracket
+
+
 def ks_game_ids(session, year):
     """해당 연도 한국시리즈 경기 ID 목록 (10·11월 조회 후 dedup)."""
     ids = []
@@ -188,8 +257,11 @@ def main():
 
         hitters.sort(key=lambda x: (-x['H'], -x['AVG']))
         pitchers.sort(key=lambda x: (-x['SO'], x['ERA']))
-        result[str(year)] = {'games': len(games), 'hitters': hitters, 'pitchers': pitchers}
-        print(f'{year}: {len(games)}경기 · 타자 {len(hitters)}명 · 투수 {len(pitchers)}명')
+        bracket = build_bracket(s, year)
+        result[str(year)] = {'games': len(games), 'bracket': bracket,
+                             'hitters': hitters, 'pitchers': pitchers}
+        rounds = ' → '.join(f"{b['round']}({b['winner']})" for b in bracket)
+        print(f'{year}: {len(games)}경기 · 타자 {len(hitters)} · 투수 {len(pitchers)} · {rounds}')
 
     path = OUT_DIR / 'postseason.json'
     path.write_text(json.dumps(result, ensure_ascii=False, indent=1), encoding='utf-8')
