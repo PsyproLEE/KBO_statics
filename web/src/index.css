@@ -1355,4 +1355,15 @@ a.ps-name:hover .name {
   .title-card .tr-years {
     font-size: 10px;
   }
+
+  /* 모바일 표 여백 축소 (컬럼 선택 뷰가 넉넉히 들어가도록) */
+  table.stat th,
+  table.stat td {
+    padding: 8px 7px;
+  }
+
+  table.stat th:first-child,
+  table.stat td:first-child {
+    padding-left: 12px;
+  }
 }
