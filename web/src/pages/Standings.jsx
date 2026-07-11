@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { useData, num } from '../lib/data.jsx'
 import { useSeason } from '../lib/useSeason.js'
 import { teamInfo } from '../lib/teams.js'
+import { championOf } from '../lib/champions.js'
 import TeamLogo from '../components/TeamLogo.jsx'
 import SeasonPicker from '../components/SeasonPicker.jsx'
 
@@ -51,10 +52,27 @@ export default function Standings() {
               const rec = isCurrent ? parseRecent(t['최근10경기']) : null
               const streak = t['연속'] || ''
               const pct = num(t['승률']) || 0
+              const ks = championOf(year)
+              const title =
+                ks && ks.champ === t['팀명']
+                  ? 'champ'
+                  : ks && ks.runnerUp === t['팀명']
+                    ? 'ru'
+                    : null
               const teamCell = (
                 <>
                   <TeamLogo team={t['팀명']} size={26} />
                   {teamInfo(t['팀명']).full}
+                  {title === 'champ' && (
+                    <span className="ks-badge champ" title={`${year} 한국시리즈 우승`}>
+                      🏆 우승
+                    </span>
+                  )}
+                  {title === 'ru' && (
+                    <span className="ks-badge ru" title={`${year} 한국시리즈 준우승`}>
+                      준우승
+                    </span>
+                  )}
                 </>
               )
               return (

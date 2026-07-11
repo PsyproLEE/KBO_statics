@@ -7,6 +7,7 @@ const MENU = [
   { to: '/hitters', label: '타자 기록' },
   { to: '/pitchers', label: '투수 기록' },
   { to: '/compare', label: '선수 비교' },
+  { to: '/history', label: '역대 우승' },
   { to: '/glossary', label: '용어 가이드' },
 ]
 

@@ -1039,6 +1039,106 @@ table.compare-table td.win {
   }
 }
 
+/* ---------- 역대 우승 ---------- */
+.ks-badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 11px;
+  font-weight: 800;
+  padding: 1px 7px;
+  border-radius: 2px;
+  margin-left: 8px;
+  font-family: var(--sans);
+  vertical-align: 1px;
+}
+
+.ks-badge.champ {
+  background: rgba(156, 115, 24, 0.14);
+  color: var(--gold);
+  border: 1px solid rgba(156, 115, 24, 0.4);
+}
+
+.ks-badge.ru {
+  background: var(--paper-2);
+  color: var(--ink-3);
+  border: 1px solid var(--rule-2);
+}
+
+.title-ranking {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.title-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--card);
+  border: 1.5px solid var(--ink);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  box-shadow: 2px 2px 0 rgba(27, 36, 52, 0.06);
+}
+
+a.title-card {
+  transition: transform 0.12s, box-shadow 0.12s;
+}
+
+a.title-card:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 4px 4px 0 rgba(27, 36, 52, 0.1);
+}
+
+.title-card .tr-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.title-card .tr-name {
+  font-weight: 800;
+  font-size: 14.5px;
+  font-family: var(--serif);
+}
+
+.title-card .tr-years {
+  color: var(--ink-3);
+  font-size: 11px;
+  font-family: var(--mono);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.title-card .tr-count {
+  font-family: var(--mono);
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--gold);
+  flex: none;
+}
+
+.title-card .tr-count span {
+  font-size: 12px;
+  margin-left: 1px;
+}
+
+.champ-cell,
+.ru-cell {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.champ-cell .trophy {
+  font-size: 13px;
+}
+
+.champ-table td.left b {
+  font-family: var(--serif);
+}
+
 /* ---------- 기타 ---------- */
 .load-state {
   padding: 120px 20px;

@@ -3,6 +3,7 @@ import { Link, useParams, useLocation } from 'react-router-dom'
 import { useData, num, fmt } from '../lib/data.jsx'
 import { useSeason } from '../lib/useSeason.js'
 import { teamInfo } from '../lib/teams.js'
+import { titlesByTeam } from '../lib/champions.js'
 import PlayerPhoto from '../components/PlayerPhoto.jsx'
 import TeamLogo from '../components/TeamLogo.jsx'
 import SeasonPicker from '../components/SeasonPicker.jsx'
@@ -154,6 +155,17 @@ export default function Team() {
                   <div className="label">최근 10경기</div>
                   <div>{standing['최근10경기']}</div>
                 </div>
+                {titlesByTeam(name).count > 0 && (
+                  <div>
+                    <div className="label">한국시리즈 우승</div>
+                    <div>
+                      🏆 {titlesByTeam(name).count}회{' '}
+                      <span style={{ color: 'var(--ink-3)', fontSize: 12 }}>
+                        ({titlesByTeam(name).years.join(', ')})
+                      </span>
+                    </div>
+                  </div>
+                )}
               </div>
             </div>
           </div>
