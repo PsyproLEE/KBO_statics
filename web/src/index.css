@@ -1,39 +1,83 @@
 /* ============================================================
-   KBO 스탯 센터 — 뉴트로 박스스코어 테마
-   크림지 배경 · 잉크 네이비 · 빨강 강조 · 명조 헤드라인 · 모노 숫자
-   오래된 야구연감 / 신문 스포츠면 감성
+   KBO 스탯 센터 — 미니멀 화이트/블랙 테마
+   조용한 바탕 · 회색 계조 · 필드 그린 포인트 · 팀 컬러가 주인공
+   여백과 굵기로만 위계를 만드는 정통 기록지 스타일
    ============================================================ */
 :root {
-  --paper: #f2e8d0; /* 신문지/크림 배경 */
-  --paper-2: #ebe0c4; /* 살짝 진한 크림 (헤더행/필드) */
-  --card: #fbf5e6; /* 카드 표면 (오프화이트) */
-  --ink: #1b2434; /* 본문/구조선 - 잉크 네이비 */
-  --ink-2: #55503f; /* 보조 텍스트 (세피아 그레이) */
-  --ink-3: #756f5b; /* 흐린 텍스트 */
-  --rule: #d3c6a3; /* 얇은 세피아 룰선 */
-  --rule-2: #c2b389; /* 조금 진한 룰선 */
-  --red: #b3302a; /* 야구 레드 강조 */
-  --red-soft: rgba(179, 48, 42, 0.09);
-  --gold: #9c7318; /* 빈티지 골드 */
-  --win: #2f6d47;
-  --loss: #b3302a;
-  --draw: #8a8264;
-  --radius: 3px;
-  --serif: 'Noto Serif KR', Georgia, 'Nanum Myeongjo', Batang, serif;
-  --sans: Pretendard, 'Noto Sans KR', 'Malgun Gothic', -apple-system, sans-serif;
-  --mono: 'Roboto Mono', 'Pretendard', ui-monospace, 'Consolas', monospace;
+  --bg: #f6f7f5; /* 화면 바탕 (아주 옅은 웜그레이) */
+  --bg-2: #f0f2ee; /* 헤더행/입력 필드 */
+  --card: #ffffff; /* 카드 표면 */
+  --ink: #20261f; /* 본문 (눈 편한 진회색) */
+  --ink-2: #5b655d; /* 보조 텍스트 */
+  --ink-3: #8b948c; /* 흐린 텍스트 */
+  --line: #eceee9; /* 얇은 행 구분선 */
+  --line-2: #dfe3db; /* 패널 테두리 */
+  --green: #0e7a46; /* 필드 그린 포인트 */
+  --green-soft: rgba(14, 122, 70, 0.07);
+  --gold: #a8842c; /* 우승 골드 */
+  --win: #0e7a46;
+  --loss: #d05045;
+  --draw: #8b948c;
+  --th-bg: #fbfcfa; /* 표 헤더행 */
+  --row-hover: #f5f7f3; /* 행 호버 */
+  --ex-bg: #f7f9f5; /* 용어 예시 박스 */
+  --topbar-bg: rgba(255, 255, 255, 0.86);
+  --shadow-1: 0 1px 2px rgba(32, 38, 31, 0.04);
+  --shadow-2: 0 6px 16px rgba(32, 38, 31, 0.08);
+  --radius: 10px;
+  --serif: 'Pretendard Variable', Pretendard, 'Noto Sans KR', -apple-system, sans-serif;
+  --sans: 'Pretendard Variable', Pretendard, 'Noto Sans KR', 'Malgun Gothic', -apple-system, sans-serif;
+  --mono: 'Pretendard Variable', Pretendard, 'Noto Sans KR', sans-serif;
   color-scheme: light;
 
   /* 하위호환 별칭 — JSX 인라인 스타일이 참조하는 옛 토큰명을 새 팔레트로 매핑 */
+  --paper: var(--bg);
+  --paper-2: var(--bg-2);
+  --field: var(--bg);
+  --field-2: var(--bg-2);
+  --chalk: var(--ink);
+  --chalk-2: var(--ink-2);
+  --chalk-3: var(--ink-3);
+  --rule: var(--line);
+  --rule-2: var(--line-2);
+  --red: var(--green);
+  --red-soft: var(--green-soft);
+  --amber: var(--green);
+  --amber-soft: var(--green-soft);
   --text: var(--ink);
   --text-2: var(--ink-2);
   --text-3: var(--ink-3);
   --surface: var(--card);
-  --surface-2: var(--paper-2);
-  --surface-3: var(--paper-2);
-  --border: var(--rule-2);
-  --accent: var(--red);
-  --accent-soft: var(--red-soft);
+  --surface-2: var(--bg-2);
+  --surface-3: var(--bg-2);
+  --border: var(--line-2);
+  --accent: var(--green);
+  --accent-soft: var(--green-soft);
+}
+
+/* ---------- 블랙 테마 ---------- */
+:root[data-theme='dark'] {
+  --bg: #141614; /* 바탕 (웜 블랙) */
+  --bg-2: #1e211e; /* 헤더행/입력 필드 */
+  --card: #1a1d1a; /* 카드 표면 */
+  --ink: #e4e8e2; /* 본문 */
+  --ink-2: #9fa89f; /* 보조 텍스트 */
+  --ink-3: #6d766d; /* 흐린 텍스트 */
+  --line: #242824; /* 얇은 행 구분선 */
+  --line-2: #2f342e; /* 패널 테두리 */
+  --green: #3cb878; /* 다크 배경용 밝은 그린 */
+  --green-soft: rgba(60, 184, 120, 0.12);
+  --gold: #d0a94e;
+  --win: #3cb878;
+  --loss: #e2695e;
+  --draw: #6d766d;
+  --th-bg: #1e221e;
+  --row-hover: rgba(255, 255, 255, 0.035);
+  --ex-bg: #1f231f;
+  --topbar-bg: rgba(20, 22, 20, 0.86);
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.25);
+  --shadow-2: 0 6px 16px rgba(0, 0, 0, 0.35);
+  color-scheme: dark;
 }
 
 * {
@@ -42,11 +86,7 @@
 
 body {
   margin: 0;
-  background-color: var(--paper);
-  /* 아주 옅은 종이 결 */
-  background-image:
-    radial-gradient(circle at 20% 10%, rgba(120, 90, 40, 0.035), transparent 60%),
-    radial-gradient(circle at 85% 30%, rgba(120, 90, 40, 0.03), transparent 55%);
+  background-color: var(--bg);
   color: var(--ink);
   font-family: var(--sans);
   font-size: 15px;
@@ -54,9 +94,29 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+::selection {
+  background: var(--green);
+  color: #fff;
+}
+
 a {
   color: inherit;
   text-decoration: none;
+}
+
+/* 숫자는 어디서든 같은 폭으로 (기록지 정렬) */
+.updated,
+table.stat td,
+table.compare-table td,
+.wpct-bar,
+.tile .value,
+.leader-card .info .value,
+.br-score,
+.title-card .tr-count,
+.roster-no,
+.roster-stat,
+.title-card .tr-years {
+  font-variant-numeric: tabular-nums;
 }
 
 /* ---------- 레이아웃 ---------- */
@@ -66,13 +126,14 @@ a {
   padding: 0 22px 80px;
 }
 
-/* ---------- 마스트헤드(상단바) ---------- */
+/* ---------- 상단바 ---------- */
 .topbar {
   position: sticky;
   top: 0;
   z-index: 20;
-  background: var(--paper);
-  border-bottom: 3px double var(--ink);
+  background: var(--topbar-bg);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line-2);
 }
 
 .topbar-inner {
@@ -82,50 +143,48 @@ a {
   display: flex;
   align-items: center;
   gap: 28px;
-  height: 66px;
+  height: 62px;
 }
 
 .brand {
   display: flex;
   align-items: center;
-  gap: 11px;
-  font-family: var(--serif);
-  font-weight: 900;
-  font-size: 21px;
-  letter-spacing: -0.01em;
+  gap: 10px;
+  font-weight: 800;
+  font-size: 19px;
+  letter-spacing: -0.02em;
   color: var(--ink);
   white-space: nowrap;
   flex: none;
 }
 
 .brand img {
-  width: 30px;
-  height: 30px;
+  width: 28px;
+  height: 28px;
 }
 
 .brand small {
-  font-family: var(--mono);
-  color: var(--paper);
-  background: var(--red);
+  color: var(--green);
+  background: var(--green-soft);
   font-weight: 700;
-  font-size: 10.5px;
-  letter-spacing: 0.04em;
-  padding: 2px 6px;
-  margin-top: 2px;
-  border-radius: 2px;
+  font-size: 11px;
+  letter-spacing: 0.01em;
+  padding: 3px 8px;
+  margin-top: 1px;
+  border-radius: 999px;
 }
 
 nav.mainnav {
   display: flex;
-  gap: 20px;
+  gap: 22px;
   overflow-x: auto;
   margin-left: auto;
 }
 
 nav.mainnav a {
-  padding: 4px 0;
+  padding: 19px 0 17px;
   color: var(--ink-2);
-  font-weight: 700;
+  font-weight: 600;
   font-size: 14.5px;
   white-space: nowrap;
   border-bottom: 2px solid transparent;
@@ -137,24 +196,46 @@ nav.mainnav a:hover {
 }
 
 nav.mainnav a.active {
-  color: var(--red);
-  border-bottom-color: var(--red);
+  color: var(--ink);
+  font-weight: 700;
+  border-bottom-color: var(--green);
 }
 
-/* ---------- 페이지 헤더 (신문 섹션 머릿글) ---------- */
+.theme-toggle {
+  flex: none;
+  width: 34px;
+  height: 34px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--card);
+  border: 1px solid var(--line-2);
+  border-radius: 50%;
+  color: var(--ink-2);
+  font-size: 15px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.theme-toggle:hover {
+  color: var(--ink);
+  border-color: var(--ink-3);
+}
+
+/* ---------- 페이지 헤더 ---------- */
 .page-head {
-  margin: 34px 0 20px;
-  border-bottom: 3px double var(--ink);
-  padding-bottom: 14px;
+  margin: 38px 0 22px;
+  animation: fadein 0.35s ease-out both;
 }
 
 .page-head h1 {
   margin: 0 0 8px;
-  font-family: var(--serif);
-  font-weight: 900;
-  font-size: 34px;
-  letter-spacing: -0.02em;
-  line-height: 1.1;
+  font-weight: 800;
+  font-size: 30px;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
 }
 
 .page-head p {
@@ -166,16 +247,27 @@ nav.mainnav a.active {
 .updated {
   color: var(--ink-3);
   font-size: 12.5px;
-  font-family: var(--mono);
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 /* ---------- 카드/표 공통 ---------- */
 .card {
   background: var(--card);
-  border: 1.5px solid var(--ink);
+  border: 1px solid var(--line-2);
   border-radius: var(--radius);
   overflow: hidden;
-  box-shadow: 3px 3px 0 rgba(27, 36, 52, 0.08);
+  box-shadow: var(--shadow-1);
+  animation: fadein 0.35s ease-out both;
 }
 
 .table-wrap {
@@ -190,28 +282,25 @@ table.stat {
 
 table.stat th,
 table.stat td {
-  padding: 9px 12px;
+  padding: 10px 12px;
   text-align: right;
   font-size: 13.5px;
 }
 
-/* 숫자 칸은 모노(박스스코어 원장 느낌) */
 table.stat td {
-  font-family: var(--mono);
-  font-size: 13px;
+  font-size: 13.5px;
   color: var(--ink);
 }
 
 table.stat th {
-  background: var(--paper-2);
-  color: var(--ink-2);
-  font-weight: 700;
+  background: var(--th-bg);
+  color: var(--ink-3);
+  font-weight: 600;
   font-size: 11.5px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
   cursor: pointer;
   user-select: none;
-  border-bottom: 2.5px solid var(--ink);
-  border-top: 1px solid var(--ink);
+  border-bottom: 1px solid var(--line-2);
 }
 
 table.stat th.plain {
@@ -223,7 +312,8 @@ table.stat th:hover:not(.plain) {
 }
 
 table.stat th.sorted {
-  color: var(--red);
+  color: var(--green);
+  font-weight: 700;
 }
 
 table.stat th:first-child,
@@ -235,11 +325,10 @@ table.stat td:first-child {
 table.stat th.left,
 table.stat td.left {
   text-align: left;
-  font-family: var(--sans);
 }
 
 table.stat tbody tr {
-  border-bottom: 1px solid var(--rule);
+  border-bottom: 1px solid var(--line);
 }
 
 table.stat tbody tr:last-child {
@@ -247,35 +336,33 @@ table.stat tbody tr:last-child {
 }
 
 table.stat tbody tr:hover {
-  background: var(--red-soft);
+  background: var(--row-hover);
 }
 
 td.hl {
-  color: var(--red);
+  color: var(--green);
   font-weight: 700;
 }
 
 .rank-cell {
   color: var(--ink-2);
-  font-weight: 700;
-  font-family: var(--mono);
+  font-weight: 600;
 }
 
+table.stat td.rank-1,
 .rank-1 {
-  color: var(--red);
+  color: var(--green);
   font-weight: 800;
 }
 
 tr.total-row td {
-  background: var(--paper-2);
+  background: var(--th-bg);
   font-weight: 700;
-  border-top: 2px solid var(--ink);
+  border-top: 1px solid var(--line-2);
 }
 
 tr.total-row td:first-child {
   color: var(--ink-2);
-  font-family: var(--serif);
-  font-weight: 700;
 }
 
 /* ---------- 팀 표시 ---------- */
@@ -283,13 +370,13 @@ tr.total-row td:first-child {
   display: inline-flex;
   align-items: center;
   gap: 9px;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 14.5px;
 }
 
 .team-dot {
   width: 4px;
-  height: 16px;
+  height: 18px;
   border-radius: 2px;
   flex: none;
 }
@@ -299,8 +386,8 @@ tr.total-row td:first-child {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background: #fbf7ec;
-  border: 1px solid var(--rule-2);
+  background: #fff;
+  border: 1px solid var(--line-2);
   padding: 3px;
   flex: none;
 }
@@ -338,8 +425,8 @@ tr.total-row td:first-child {
   border-radius: 50%;
   object-fit: cover;
   object-position: top;
-  background: var(--paper-2);
-  border: 1px solid var(--rule-2);
+  background: var(--bg-2);
+  border: 1px solid var(--line-2);
   flex: none;
 }
 
@@ -350,11 +437,10 @@ tr.total-row td:first-child {
   font-size: 13px;
   font-weight: 700;
   color: var(--ink-2);
-  font-family: var(--serif);
 }
 
 .player-cell .name {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .player-cell .team {
@@ -367,21 +453,20 @@ tr.total-row td:first-child {
   display: inline-flex;
   align-items: center;
   gap: 9px;
-  font-family: var(--mono);
 }
 
 .wpct-bar .track {
   width: 86px;
-  height: 7px;
-  border-radius: 0;
-  background: var(--paper-2);
-  border: 1px solid var(--rule-2);
+  height: 6px;
+  border-radius: 3px;
+  background: var(--bg-2);
   overflow: hidden;
 }
 
 .wpct-bar .fill {
   height: 100%;
-  background: var(--ink);
+  border-radius: 3px;
+  background: var(--green);
 }
 
 /* ---------- 최근10경기 / 연속 ---------- */
@@ -392,29 +477,24 @@ tr.total-row td:first-child {
 
 .pill {
   padding: 1px 7px;
-  border-radius: 2px;
+  border-radius: 999px;
   font-size: 11.5px;
   font-weight: 700;
-  font-family: var(--mono);
-  border: 1px solid transparent;
 }
 
 .pill.w {
-  background: rgba(47, 109, 71, 0.12);
+  background: rgba(14, 122, 70, 0.09);
   color: var(--win);
-  border-color: rgba(47, 109, 71, 0.3);
 }
 
 .pill.l {
-  background: var(--red-soft);
+  background: rgba(208, 80, 69, 0.09);
   color: var(--loss);
-  border-color: rgba(179, 48, 42, 0.28);
 }
 
 .pill.d {
-  background: rgba(138, 130, 100, 0.14);
+  background: var(--bg-2);
   color: var(--draw);
-  border-color: rgba(138, 130, 100, 0.32);
 }
 
 .streak-w {
@@ -427,7 +507,7 @@ tr.total-row td:first-child {
   font-weight: 700;
 }
 
-/* ---------- 카테고리 칩 (신문 토글) ---------- */
+/* ---------- 카테고리 칩 ---------- */
 .chips {
   display: flex;
   gap: 8px;
@@ -436,26 +516,28 @@ tr.total-row td:first-child {
 }
 
 .chip {
-  padding: 7px 14px;
-  border-radius: var(--radius);
+  padding: 7px 15px;
+  border-radius: 999px;
   background: var(--card);
-  border: 1.5px solid var(--ink);
-  color: var(--ink);
-  font-weight: 700;
+  border: 1px solid var(--line-2);
+  color: var(--ink-2);
+  font-weight: 600;
   font-size: 13.5px;
   cursor: pointer;
-  font-family: var(--sans);
-  transition: all 0.12s;
+  font-family: inherit;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
 }
 
 .chip:hover {
-  background: var(--paper-2);
+  border-color: var(--ink-3);
+  color: var(--ink);
 }
 
 .chip.on {
   background: var(--ink);
   border-color: var(--ink);
-  color: var(--paper);
+  color: var(--card);
+  font-weight: 700;
 }
 
 .chip-logo {
@@ -472,35 +554,55 @@ tr.total-row td:first-child {
   margin-bottom: 24px;
 }
 
+.leaders > * {
+  animation: fadein 0.35s ease-out both;
+}
+
+.leaders > *:nth-child(2) {
+  animation-delay: 0.04s;
+}
+
+.leaders > *:nth-child(3) {
+  animation-delay: 0.08s;
+}
+
+.leaders > *:nth-child(4) {
+  animation-delay: 0.12s;
+}
+
+.leaders > *:nth-child(5) {
+  animation-delay: 0.16s;
+}
+
 .leader-card {
   background: var(--card);
-  border: 1.5px solid var(--ink);
+  border: 1px solid var(--line-2);
   border-radius: var(--radius);
   padding: 16px;
   display: flex;
   gap: 14px;
   align-items: center;
   position: relative;
-  box-shadow: 3px 3px 0 rgba(27, 36, 52, 0.08);
-  transition: transform 0.12s, box-shadow 0.12s;
+  box-shadow: var(--shadow-1);
+  transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
 }
 
 .leader-card:hover {
-  transform: translate(-1px, -1px);
-  box-shadow: 5px 5px 0 rgba(27, 36, 52, 0.12);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-2);
 }
 
 .leader-card.first {
-  border-color: var(--red);
-  box-shadow: 3px 3px 0 rgba(179, 48, 42, 0.18);
+  border-color: rgba(14, 122, 70, 0.35);
 }
 
 .leader-card.first::before {
   content: '';
   position: absolute;
   inset: 0 0 auto 0;
-  height: 4px;
-  background: var(--red);
+  height: 3px;
+  background: var(--green);
+  border-radius: var(--radius) var(--radius) 0 0;
 }
 
 .leader-card .photo,
@@ -510,8 +612,8 @@ tr.total-row td:first-child {
   border-radius: 50%;
   object-fit: cover;
   object-position: top;
-  background: var(--paper-2);
-  border: 1.5px solid var(--ink);
+  background: var(--bg-2);
+  border: 1px solid var(--line-2);
   flex: none;
 }
 
@@ -520,23 +622,21 @@ tr.total-row td:first-child {
   align-items: center;
   justify-content: center;
   font-size: 22px;
-  font-weight: 800;
+  font-weight: 700;
   color: var(--ink-2);
-  font-family: var(--serif);
 }
 
 .leader-card .rank-badge {
   position: absolute;
-  top: 9px;
-  right: 12px;
+  top: 10px;
+  right: 13px;
   font-size: 12px;
-  font-weight: 800;
+  font-weight: 700;
   color: var(--ink-3);
-  font-family: var(--serif);
 }
 
 .leader-card.first .rank-badge {
-  color: var(--red);
+  color: var(--green);
 }
 
 .leader-card .info {
@@ -544,9 +644,8 @@ tr.total-row td:first-child {
 }
 
 .leader-card .info .name {
-  font-weight: 800;
-  font-size: 16px;
-  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 15.5px;
 }
 
 .leader-card .info .team {
@@ -564,9 +663,8 @@ tr.total-row td:first-child {
 }
 
 .leader-card .info .value {
-  font-size: 21px;
-  font-weight: 700;
-  font-family: var(--mono);
+  font-size: 22px;
+  font-weight: 800;
   letter-spacing: -0.02em;
   margin-top: 2px;
   white-space: nowrap;
@@ -574,13 +672,13 @@ tr.total-row td:first-child {
 
 .leader-card .info .value-label {
   font-size: 11px;
-  font-weight: 700;
+  font-weight: 600;
   color: var(--ink-3);
   margin-top: 1px;
 }
 
 .leader-card.first .info .value {
-  color: var(--red);
+  color: var(--green);
 }
 
 /* ---------- 툴바 (검색/필터) ---------- */
@@ -595,18 +693,23 @@ tr.total-row td:first-child {
 .toolbar input,
 .toolbar select {
   background: var(--card);
-  border: 1.5px solid var(--ink);
+  border: 1px solid var(--line-2);
   color: var(--ink);
-  border-radius: var(--radius);
+  border-radius: 8px;
   padding: 8px 12px;
   font-size: 14px;
   font-family: inherit;
 }
 
+.toolbar input::placeholder {
+  color: var(--ink-3);
+}
+
 .toolbar input:focus,
 .toolbar select:focus {
   outline: none;
-  border-color: var(--red);
+  border-color: var(--green);
+  box-shadow: 0 0 0 3px var(--green-soft);
 }
 
 .toolbar .toggle {
@@ -614,7 +717,7 @@ tr.total-row td:first-child {
   align-items: center;
   gap: 6px;
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 600;
   color: var(--ink-2);
   cursor: pointer;
   user-select: none;
@@ -623,14 +726,13 @@ tr.total-row td:first-child {
 .toolbar .toggle input {
   width: 15px;
   height: 15px;
-  accent-color: var(--red);
+  accent-color: var(--green);
   cursor: pointer;
 }
 
 .toolbar .note {
   color: var(--ink-3);
   font-size: 12.5px;
-  font-family: var(--mono);
   margin-left: auto;
 }
 
@@ -652,18 +754,19 @@ tr.total-row td:first-child {
 .stat-picker select {
   flex: 1;
   background: var(--card);
-  border: 1.5px solid var(--ink);
+  border: 1px solid var(--line-2);
   color: var(--ink);
-  border-radius: var(--radius);
+  border-radius: 8px;
   padding: 10px 12px;
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 600;
   font-family: inherit;
 }
 
 .stat-picker select:focus {
   outline: none;
-  border-color: var(--red);
+  border-color: var(--green);
+  box-shadow: 0 0 0 3px var(--green-soft);
 }
 
 /* ---------- 선수 상세 ---------- */
@@ -672,32 +775,24 @@ tr.total-row td:first-child {
   gap: 28px;
   align-items: flex-start;
   background: var(--card);
-  border: 1.5px solid var(--ink);
+  border: 1px solid var(--line-2);
   border-radius: var(--radius);
-  box-shadow: 4px 4px 0 rgba(27, 36, 52, 0.1);
+  box-shadow: var(--shadow-1);
   padding: 28px;
   margin: 30px 0 20px;
   flex-wrap: wrap;
-  position: relative;
-}
-
-.player-hero::before {
-  content: '';
-  position: absolute;
-  inset: 0 0 auto 0;
-  height: 5px;
-  background: var(--red);
+  animation: fadein 0.35s ease-out both;
 }
 
 .player-hero .big-photo,
 .player-hero .big-photo-fallback {
   width: 168px;
   height: 210px;
-  border-radius: var(--radius);
+  border-radius: 8px;
   object-fit: cover;
   object-position: top;
-  background: var(--paper-2);
-  border: 1.5px solid var(--ink);
+  background: var(--bg-2);
+  border: 1px solid var(--line-2);
 }
 
 .player-hero .big-photo-fallback {
@@ -707,25 +802,22 @@ tr.total-row td:first-child {
   font-size: 46px;
   font-weight: 800;
   color: var(--ink-3);
-  font-family: var(--serif);
 }
 
 .player-hero h1 {
   margin: 0;
-  font-family: var(--serif);
-  font-weight: 900;
-  font-size: 34px;
-  letter-spacing: -0.02em;
+  font-weight: 800;
+  font-size: 30px;
+  letter-spacing: -0.03em;
   display: flex;
   align-items: baseline;
   gap: 10px;
 }
 
 .player-hero h1 .backno {
-  font-size: 16px;
+  font-size: 15px;
   color: var(--ink-3);
   font-weight: 700;
-  font-family: var(--mono);
 }
 
 .profile-grid {
@@ -749,25 +841,48 @@ tr.total-row td:first-child {
   margin: 20px 0;
 }
 
+.tiles > * {
+  animation: fadein 0.35s ease-out both;
+}
+
+.tiles > *:nth-child(2) {
+  animation-delay: 0.03s;
+}
+
+.tiles > *:nth-child(3) {
+  animation-delay: 0.06s;
+}
+
+.tiles > *:nth-child(4) {
+  animation-delay: 0.09s;
+}
+
+.tiles > *:nth-child(5) {
+  animation-delay: 0.12s;
+}
+
+.tiles > *:nth-child(6) {
+  animation-delay: 0.15s;
+}
+
 .tile {
   background: var(--card);
-  border: 1.5px solid var(--ink);
+  border: 1px solid var(--line-2);
   border-radius: var(--radius);
   padding: 15px 16px;
-  box-shadow: 2px 2px 0 rgba(27, 36, 52, 0.07);
+  box-shadow: var(--shadow-1);
 }
 
 .tile .label {
-  color: var(--ink-2);
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.02em;
+  color: var(--ink-3);
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
 }
 
 .tile .value {
-  font-size: 27px;
-  font-weight: 700;
-  font-family: var(--mono);
+  font-size: 26px;
+  font-weight: 800;
   letter-spacing: -0.02em;
   margin-top: 6px;
 }
@@ -779,15 +894,26 @@ tr.total-row td:first-child {
 }
 
 .section-title {
-  margin: 30px 0 12px;
-  font-family: var(--serif);
-  font-size: 20px;
-  font-weight: 900;
-  padding-bottom: 8px;
-  border-bottom: 2px solid var(--ink);
+  margin: 32px 0 12px;
+  font-size: 19px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  padding-left: 12px;
   display: flex;
   align-items: center;
   gap: 8px;
+  position: relative;
+}
+
+.section-title::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 4px;
+  bottom: 4px;
+  width: 4px;
+  background: var(--green);
+  border-radius: 2px;
 }
 
 /* ---------- 용어 가이드 ---------- */
@@ -799,28 +925,26 @@ tr.total-row td:first-child {
 
 .gloss-card {
   background: var(--card);
-  border: 1.5px solid var(--ink);
+  border: 1px solid var(--line-2);
   border-radius: var(--radius);
   padding: 16px 18px;
-  box-shadow: 2px 2px 0 rgba(27, 36, 52, 0.07);
+  box-shadow: var(--shadow-1);
 }
 
 .gloss-card .abbr {
   display: inline-block;
   background: var(--ink);
-  color: var(--paper);
+  color: var(--card);
   font-weight: 700;
-  font-size: 12.5px;
-  border-radius: 2px;
+  font-size: 12px;
+  border-radius: 5px;
   padding: 2px 8px;
   margin-right: 8px;
-  font-family: var(--mono);
 }
 
 .gloss-card .term {
-  font-weight: 800;
+  font-weight: 700;
   font-size: 15.5px;
-  font-family: var(--serif);
 }
 
 .gloss-card p {
@@ -832,9 +956,9 @@ tr.total-row td:first-child {
 .gloss-card .ex {
   margin-top: 8px;
   padding: 8px 10px;
-  background: var(--paper-2);
-  border-left: 3px solid var(--red);
-  border-radius: 0 2px 2px 0;
+  background: var(--ex-bg);
+  border-left: 3px solid var(--green);
+  border-radius: 0 6px 6px 0;
   font-size: 12.5px;
   color: var(--ink-2);
 }
@@ -846,7 +970,7 @@ tr.total-row td:first-child {
 /* ---------- 팀 로스터 ---------- */
 .team-link:hover {
   text-decoration: underline;
-  text-decoration-color: var(--red);
+  text-decoration-color: var(--green);
   text-underline-offset: 3px;
 }
 
@@ -861,16 +985,16 @@ tr.total-row td:first-child {
   align-items: center;
   gap: 12px;
   background: var(--card);
-  border: 1.5px solid var(--ink);
+  border: 1px solid var(--line-2);
   border-radius: var(--radius);
   padding: 12px 14px;
-  box-shadow: 2px 2px 0 rgba(27, 36, 52, 0.06);
-  transition: transform 0.12s, box-shadow 0.12s;
+  box-shadow: var(--shadow-1);
+  transition: transform 0.15s, box-shadow 0.15s;
 }
 
 .roster-card:hover {
-  transform: translate(-1px, -1px);
-  box-shadow: 4px 4px 0 rgba(27, 36, 52, 0.1);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-2);
 }
 
 .roster-photo,
@@ -880,8 +1004,8 @@ tr.total-row td:first-child {
   border-radius: 50%;
   object-fit: cover;
   object-position: top;
-  background: var(--paper-2);
-  border: 1.5px solid var(--ink);
+  background: var(--bg-2);
+  border: 1px solid var(--line-2);
   flex: none;
 }
 
@@ -889,13 +1013,12 @@ tr.total-row td:first-child {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 800;
+  font-weight: 700;
   color: var(--ink-2);
-  font-family: var(--serif);
 }
 
 .roster-name {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 14.5px;
 }
 
@@ -904,7 +1027,6 @@ tr.total-row td:first-child {
   font-size: 12px;
   margin-left: 6px;
   font-weight: 600;
-  font-family: var(--mono);
 }
 
 .roster-pos {
@@ -915,7 +1037,6 @@ tr.total-row td:first-child {
 .roster-stat {
   color: var(--ink-2);
   font-size: 12px;
-  font-family: var(--mono);
   margin-top: 2px;
 }
 
@@ -929,10 +1050,9 @@ tr.total-row td:first-child {
 
 .compare-pickers .vs {
   align-self: center;
-  font-family: var(--serif);
-  font-weight: 900;
-  color: var(--red);
-  font-size: 17px;
+  font-weight: 800;
+  color: var(--ink-3);
+  font-size: 15px;
   padding: 0 2px;
 }
 
@@ -943,17 +1063,22 @@ tr.total-row td:first-child {
 .picker input {
   width: 100%;
   background: var(--card);
-  border: 1.5px solid var(--ink);
+  border: 1px solid var(--line-2);
   color: var(--ink);
-  border-radius: var(--radius);
+  border-radius: 8px;
   padding: 14px;
   font-size: 15px;
   font-family: inherit;
 }
 
+.picker input::placeholder {
+  color: var(--ink-3);
+}
+
 .picker input:focus {
   outline: none;
-  border-color: var(--red);
+  border-color: var(--green);
+  box-shadow: 0 0 0 3px var(--green-soft);
 }
 
 .picker-list {
@@ -962,11 +1087,11 @@ tr.total-row td:first-child {
   left: 0;
   right: 0;
   background: var(--card);
-  border: 1.5px solid var(--ink);
-  border-radius: var(--radius);
+  border: 1px solid var(--line-2);
+  border-radius: 8px;
   overflow: hidden;
   z-index: 10;
-  box-shadow: 4px 6px 0 rgba(27, 36, 52, 0.15);
+  box-shadow: 0 10px 30px rgba(32, 38, 31, 0.12);
 }
 
 .picker-item {
@@ -977,7 +1102,7 @@ tr.total-row td:first-child {
   padding: 9px 12px;
   background: none;
   border: 0;
-  border-bottom: 1px solid var(--rule);
+  border-bottom: 1px solid var(--line);
   color: var(--ink);
   font-family: inherit;
   font-size: 14px;
@@ -990,11 +1115,11 @@ tr.total-row td:first-child {
 }
 
 .picker-item:hover {
-  background: var(--red-soft);
+  background: var(--row-hover);
 }
 
 .picker-item .name {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .picker-item .team {
@@ -1007,7 +1132,7 @@ tr.total-row td:first-child {
   align-items: center;
   gap: 14px;
   background: var(--card);
-  border: 1.5px solid var(--ink);
+  border: 1px solid var(--line-2);
   border-radius: var(--radius);
   padding: 12px 14px;
 }
@@ -1019,8 +1144,8 @@ tr.total-row td:first-child {
   border-radius: 50%;
   object-fit: cover;
   object-position: top;
-  background: var(--paper-2);
-  border: 1.5px solid var(--ink);
+  background: var(--bg-2);
+  border: 1px solid var(--line-2);
   flex: none;
 }
 
@@ -1028,9 +1153,8 @@ tr.total-row td:first-child {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 800;
+  font-weight: 700;
   color: var(--ink-2);
-  font-family: var(--serif);
 }
 
 table.compare-table th,
@@ -1039,26 +1163,16 @@ table.compare-table td {
   font-size: 14px;
 }
 
-table.compare-table td {
-  font-family: var(--mono);
-}
-
 table.compare-table .mid {
   color: var(--ink-3);
   font-size: 12px;
   width: 130px;
-  font-family: var(--sans);
-}
-
-table.compare-table th .mid,
-table.compare-table th {
-  font-family: var(--serif);
 }
 
 table.compare-table td.win {
-  color: var(--red);
+  color: var(--green);
   font-weight: 800;
-  background: var(--red-soft);
+  background: var(--green-soft);
 }
 
 @media (max-width: 640px) {
@@ -1076,24 +1190,21 @@ table.compare-table td.win {
   display: inline-flex;
   align-items: center;
   font-size: 11px;
-  font-weight: 800;
-  padding: 1px 7px;
-  border-radius: 2px;
+  font-weight: 700;
+  padding: 1px 8px;
+  border-radius: 999px;
   margin-left: 8px;
-  font-family: var(--sans);
   vertical-align: 1px;
 }
 
 .ks-badge.champ {
-  background: rgba(156, 115, 24, 0.14);
+  background: rgba(168, 132, 44, 0.1);
   color: var(--gold);
-  border: 1px solid rgba(156, 115, 24, 0.4);
 }
 
 .ks-badge.ru {
-  background: var(--paper-2);
+  background: var(--bg-2);
   color: var(--ink-3);
-  border: 1px solid var(--rule-2);
 }
 
 .title-ranking {
@@ -1108,19 +1219,19 @@ table.compare-table td.win {
   align-items: center;
   gap: 12px;
   background: var(--card);
-  border: 1.5px solid var(--ink);
+  border: 1px solid var(--line-2);
   border-radius: var(--radius);
   padding: 12px 14px;
-  box-shadow: 2px 2px 0 rgba(27, 36, 52, 0.06);
+  box-shadow: var(--shadow-1);
 }
 
 a.title-card {
-  transition: transform 0.12s, box-shadow 0.12s;
+  transition: transform 0.15s, box-shadow 0.15s;
 }
 
 a.title-card:hover {
-  transform: translate(-1px, -1px);
-  box-shadow: 4px 4px 0 rgba(27, 36, 52, 0.1);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-2);
 }
 
 .title-card .tr-info {
@@ -1129,24 +1240,21 @@ a.title-card:hover {
 }
 
 .title-card .tr-name {
-  font-weight: 800;
+  font-weight: 700;
   font-size: 14.5px;
-  font-family: var(--serif);
 }
 
 .title-card .tr-years {
   color: var(--ink-3);
   font-size: 11px;
-  font-family: var(--mono);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .title-card .tr-count {
-  font-family: var(--mono);
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 800;
   color: var(--gold);
   flex: none;
 }
@@ -1154,6 +1262,7 @@ a.title-card:hover {
 .title-card .tr-count span {
   font-size: 12px;
   margin-left: 1px;
+  font-weight: 600;
 }
 
 .champ-cell,
@@ -1168,7 +1277,7 @@ a.title-card:hover {
 }
 
 .champ-table td.left b {
-  font-family: var(--serif);
+  font-weight: 700;
 }
 
 /* ---------- 포스트시즌 대진표 ---------- */
@@ -1184,21 +1293,20 @@ a.title-card:hover {
   align-items: center;
   gap: 12px;
   background: var(--card);
-  border: 1.5px solid var(--ink);
+  border: 1px solid var(--line-2);
   border-radius: var(--radius);
   padding: 10px 14px;
-  box-shadow: 2px 2px 0 rgba(27, 36, 52, 0.06);
+  box-shadow: var(--shadow-1);
 }
 
 .bracket-row.ks {
-  border-color: var(--gold);
-  box-shadow: 2px 2px 0 rgba(156, 115, 24, 0.18);
+  border-color: rgba(168, 132, 44, 0.45);
+  background: linear-gradient(0deg, rgba(168, 132, 44, 0.03), rgba(168, 132, 44, 0.03)), var(--card);
 }
 
 .br-round {
-  font-family: var(--serif);
-  font-weight: 800;
-  font-size: 13px;
+  font-weight: 700;
+  font-size: 12.5px;
   color: var(--ink-2);
 }
 
@@ -1223,7 +1331,7 @@ a.title-card:hover {
 }
 
 .br-team.win {
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .br-team.lose {
@@ -1233,7 +1341,6 @@ a.title-card:hover {
 }
 
 .br-score {
-  font-family: var(--mono);
   font-weight: 700;
   font-size: 15px;
   white-space: nowrap;
@@ -1245,9 +1352,8 @@ a.title-card:hover {
 
 .ps-subtitle {
   margin: 20px 0 8px;
-  font-family: var(--serif);
   font-size: 15px;
-  font-weight: 800;
+  font-weight: 700;
   color: var(--ink-2);
 }
 
@@ -1255,11 +1361,11 @@ a.title-card:hover {
   display: inline-flex;
   align-items: center;
   gap: 7px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 a.ps-name:hover .name {
-  color: var(--red);
+  color: var(--green);
 }
 
 /* ---------- 기타 ---------- */
@@ -1267,13 +1373,12 @@ a.ps-name:hover .name {
   padding: 120px 20px;
   text-align: center;
   color: var(--ink-2);
-  font-family: var(--serif);
 }
 
 .back-link {
   color: var(--ink-2);
   font-size: 13.5px;
-  font-weight: 700;
+  font-weight: 600;
   display: inline-flex;
   align-items: center;
   gap: 6px;
@@ -1281,13 +1386,13 @@ a.ps-name:hover .name {
 }
 
 .back-link:hover {
-  color: var(--red);
+  color: var(--green);
 }
 
 .footer {
   margin-top: 60px;
   padding-top: 18px;
-  border-top: 3px double var(--ink);
+  border-top: 1px solid var(--line-2);
   color: var(--ink-3);
   font-size: 12.5px;
   line-height: 1.8;
@@ -1296,19 +1401,37 @@ a.ps-name:hover .name {
 .footer a {
   color: var(--ink-2);
   text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 .badge-note {
   display: inline-block;
   font-size: 11.5px;
   color: var(--ink-2);
-  background: var(--paper-2);
-  border: 1px solid var(--rule-2);
-  border-radius: 2px;
-  padding: 1px 7px;
+  background: var(--bg-2);
+  border-radius: 999px;
+  padding: 2px 9px;
   margin-left: 8px;
   vertical-align: 2px;
-  font-family: var(--mono);
+}
+
+/* ---------- 스크롤바 ---------- */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--line-2);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--ink-3);
 }
 
 @media (max-width: 640px) {
@@ -1321,11 +1444,11 @@ a.ps-name:hover .name {
   }
 
   .brand {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .page-head h1 {
-    font-size: 27px;
+    font-size: 25px;
   }
 
   .player-hero {

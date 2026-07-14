@@ -1,5 +1,5 @@
 import { NavLink, Outlet, useLocation } from 'react-router-dom'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { useData } from './lib/data.jsx'
 
 const MENU = [
@@ -14,10 +14,20 @@ const MENU = [
 export default function App() {
   const { meta } = useData()
   const { pathname } = useLocation()
+  const [theme, setTheme] = useState(
+    () =>
+      localStorage.getItem('theme') ||
+      (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'),
+  )
 
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [pathname])
+
+  useEffect(() => {
+    document.documentElement.dataset.theme = theme
+    localStorage.setItem('theme', theme)
+  }, [theme])
 
   return (
     <>
@@ -35,6 +45,15 @@ export default function App() {
               </NavLink>
             ))}
           </nav>
+          <button
+            type="button"
+            className="theme-toggle"
+            onClick={() => setTheme((t) => (t === 'dark' ? 'light' : 'dark'))}
+            title={theme === 'dark' ? '라이트 모드로' : '다크 모드로'}
+            aria-label="테마 전환"
+          >
+            {theme === 'dark' ? '☀' : '☾'}
+          </button>
         </div>
       </header>
       <main className="shell">
