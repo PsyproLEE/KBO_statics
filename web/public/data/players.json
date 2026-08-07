@@ -1780,36 +1780,6 @@
    "hitter"
   ]
  },
- "65639": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/65639.jpg",
-  "name": "박정수",
-  "backNo": "17",
-  "birth": "1996년 01월 29일",
-  "position": "투수(우언좌타)",
-  "body": "178cm/74kg",
-  "career": "서울청구초-서울이수중-야탑고-KIA-경찰-KIA-NC",
-  "debut": "15KIA",
-  "playerId": "65639",
-  "roles": [
-   "hitter",
-   "pitcher"
-  ]
- },
- "55215": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/55215.jpg",
-  "name": "양재훈",
-  "backNo": "30",
-  "birth": "2003년 05월 01일",
-  "position": "투수(우투우타)",
-  "body": "186cm/89kg",
-  "career": "부산수영초-사직중-개성고-동의과학대",
-  "debut": "25두산",
-  "playerId": "55215",
-  "roles": [
-   "hitter",
-   "pitcher"
-  ]
- },
  "54214": {
   "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/54214.jpg",
   "name": "전다민",
@@ -2200,6 +2170,36 @@
   "career": "목암초(의정부리틀)-영동중-경기고-두산-상무",
   "debut": "18두산",
   "playerId": "68249",
+  "roles": [
+   "hitter",
+   "pitcher"
+  ]
+ },
+ "65639": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/65639.jpg",
+  "name": "박정수",
+  "backNo": "17",
+  "birth": "1996년 01월 29일",
+  "position": "투수(우언좌타)",
+  "body": "178cm/74kg",
+  "career": "서울청구초-서울이수중-야탑고-KIA-경찰-KIA-NC",
+  "debut": "15KIA",
+  "playerId": "65639",
+  "roles": [
+   "hitter",
+   "pitcher"
+  ]
+ },
+ "55215": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/55215.jpg",
+  "name": "양재훈",
+  "backNo": "30",
+  "birth": "2003년 05월 01일",
+  "position": "투수(우투우타)",
+  "body": "186cm/89kg",
+  "career": "부산수영초-사직중-개성고-동의과학대",
+  "debut": "25두산",
+  "playerId": "55215",
   "roles": [
    "hitter",
    "pitcher"
@@ -4893,11 +4893,11 @@
  "56415": {
   "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56415.jpg",
   "name": "미야지",
-  "backNo": "15",
+  "backNo": "",
   "birth": "1999년 08월 02일",
   "position": "투수(우투우타)",
   "body": "186cm/90kg",
-  "career": "일본 도카이대",
+  "career": "일본 도카이대-삼성",
   "debut": "26삼성",
   "playerId": "56415",
   "roles": [
