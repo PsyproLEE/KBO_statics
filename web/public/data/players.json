@@ -2792,20 +2792,6 @@
    "hitter"
   ]
  },
- "67905": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/67905.jpg",
-  "name": "천재환",
-  "backNo": "23",
-  "birth": "1994년 04월 01일",
-  "position": "외야수(우투우타)",
-  "body": "181cm/83kg",
-  "career": "대전신흥초-공주중-화순고-고려대",
-  "debut": "22NC",
-  "playerId": "67905",
-  "roles": [
-   "hitter"
-  ]
- },
  "64022": {
   "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/64022.jpg",
   "name": "안중열",
@@ -2816,6 +2802,20 @@
   "career": "가야초-개성중-부산고-(영남사이버대)-KT-롯데-상무-롯데",
   "debut": "14KT",
   "playerId": "64022",
+  "roles": [
+   "hitter"
+  ]
+ },
+ "67905": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/67905.jpg",
+  "name": "천재환",
+  "backNo": "23",
+  "birth": "1994년 04월 01일",
+  "position": "외야수(우투우타)",
+  "body": "181cm/83kg",
+  "career": "대전신흥초-공주중-화순고-고려대",
+  "debut": "22NC",
+  "playerId": "67905",
   "roles": [
    "hitter"
   ]
@@ -2974,20 +2974,6 @@
    "hitter"
   ]
  },
- "51344": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/51344.jpg",
-  "name": "김휘집",
-  "backNo": "44",
-  "birth": "2002년 01월 01일",
-  "position": "내야수(우투우타)",
-  "body": "180cm/92kg",
-  "career": "양목초(히어로즈리틀)-대치중-신일고-키움",
-  "debut": "21키움",
-  "playerId": "51344",
-  "roles": [
-   "hitter"
-  ]
- },
  "68912": {
   "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/68912.jpg",
   "name": "김형준",
@@ -2998,6 +2984,20 @@
   "career": "가동초-세광중-세광고-NC-상무",
   "debut": "18NC",
   "playerId": "68912",
+  "roles": [
+   "hitter"
+  ]
+ },
+ "51344": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/51344.jpg",
+  "name": "김휘집",
+  "backNo": "44",
+  "birth": "2002년 01월 01일",
+  "position": "내야수(우투우타)",
+  "body": "180cm/92kg",
+  "career": "양목초(히어로즈리틀)-대치중-신일고-키움",
+  "debut": "21키움",
+  "playerId": "51344",
   "roles": [
    "hitter"
   ]
