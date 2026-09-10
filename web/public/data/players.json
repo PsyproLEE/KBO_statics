@@ -974,6 +974,34 @@
    "hitter"
   ]
  },
+ "53036": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/53036.jpg",
+  "name": "류현인",
+  "backNo": "9",
+  "birth": "2000년 11월 08일",
+  "position": "내야수(우투좌타)",
+  "body": "174cm/80kg",
+  "career": "광주수창초-진흥중-진흥고-단국대-KT-상무",
+  "debut": "23KT",
+  "playerId": "53036",
+  "roles": [
+   "hitter"
+  ]
+ },
+ "64004": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/64004.jpg",
+  "name": "김민혁",
+  "backNo": "53",
+  "birth": "1995년 11월 21일",
+  "position": "외야수(우투좌타)",
+  "body": "181cm/71kg",
+  "career": "광주서석초-배재중-배재고-KT-상무",
+  "debut": "14KT",
+  "playerId": "64004",
+  "roles": [
+   "hitter"
+  ]
+ },
  "51013": {
   "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/51013.jpg",
   "name": "유준규",
@@ -1002,6 +1030,20 @@
    "hitter"
   ]
  },
+ "56034": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56034.jpg",
+  "name": "힐리어드",
+  "backNo": "34",
+  "birth": "1994년 02월 21일",
+  "position": "내야수(좌투좌타)",
+  "body": "196cm/107kg",
+  "career": "미국 Mansfield(고)-미국 Wichita State(대)",
+  "debut": "26KT",
+  "playerId": "56034",
+  "roles": [
+   "hitter"
+  ]
+ },
  "68089": {
   "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/68089.jpg",
   "name": "조대현",
@@ -1012,34 +1054,6 @@
   "career": "길동초-매송중-유신고",
   "debut": "21KT",
   "playerId": "68089",
-  "roles": [
-   "hitter"
-  ]
- },
- "64004": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/64004.jpg",
-  "name": "김민혁",
-  "backNo": "53",
-  "birth": "1995년 11월 21일",
-  "position": "외야수(우투좌타)",
-  "body": "181cm/71kg",
-  "career": "광주서석초-배재중-배재고-KT-상무",
-  "debut": "14KT",
-  "playerId": "64004",
-  "roles": [
-   "hitter"
-  ]
- },
- "53036": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/53036.jpg",
-  "name": "류현인",
-  "backNo": "9",
-  "birth": "2000년 11월 08일",
-  "position": "내야수(우투좌타)",
-  "body": "174cm/80kg",
-  "career": "광주수창초-진흥중-진흥고-단국대-KT-상무",
-  "debut": "23KT",
-  "playerId": "53036",
   "roles": [
    "hitter"
   ]
@@ -1058,16 +1072,16 @@
    "hitter"
   ]
  },
- "56034": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56034.jpg",
-  "name": "힐리어드",
-  "backNo": "34",
-  "birth": "1994년 02월 21일",
-  "position": "내야수(좌투좌타)",
-  "body": "196cm/107kg",
-  "career": "미국 Mansfield(고)-미국 Wichita State(대)",
-  "debut": "26KT",
-  "playerId": "56034",
+ "64504": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/64504.jpg",
+  "name": "오윤석",
+  "backNo": "4",
+  "birth": "1992년 02월 24일",
+  "position": "내야수(우투우타)",
+  "body": "180cm/87kg",
+  "career": "화중초-자양중-경기고-연세대-롯데-상무-롯데",
+  "debut": "15롯데",
+  "playerId": "64504",
   "roles": [
    "hitter"
   ]
@@ -1100,16 +1114,16 @@
    "hitter"
   ]
  },
- "64504": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/64504.jpg",
-  "name": "오윤석",
-  "backNo": "4",
-  "birth": "1992년 02월 24일",
-  "position": "내야수(우투우타)",
-  "body": "180cm/87kg",
-  "career": "화중초-자양중-경기고-연세대-롯데-상무-롯데",
-  "debut": "15롯데",
-  "playerId": "64504",
+ "76290": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/76290.jpg",
+  "name": "김현수",
+  "backNo": "10",
+  "birth": "1988년 01월 12일",
+  "position": "외야수(우투좌타)",
+  "body": "188cm/105kg",
+  "career": "쌍문초-신일중-신일고-두산-볼티모어-필라델피아-LG",
+  "debut": "06두산",
+  "playerId": "76290",
   "roles": [
    "hitter"
   ]
@@ -1124,20 +1138,6 @@
   "career": "광주화정초-충장중-광주제일고-단국대-한화",
   "debut": "18한화",
   "playerId": "66706",
-  "roles": [
-   "hitter"
-  ]
- },
- "76290": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/76290.jpg",
-  "name": "김현수",
-  "backNo": "10",
-  "birth": "1988년 01월 12일",
-  "position": "외야수(우투좌타)",
-  "body": "188cm/105kg",
-  "career": "쌍문초-신일중-신일고-두산-볼티모어-필라델피아-LG",
-  "debut": "06두산",
-  "playerId": "76290",
   "roles": [
    "hitter"
   ]
@@ -1184,20 +1184,6 @@
    "hitter"
   ]
  },
- "64166": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/64166.jpg",
-  "name": "배정대",
-  "backNo": "27",
-  "birth": "1995년 06월 12일",
-  "position": "외야수(우투우타)",
-  "body": "185cm/80kg",
-  "career": "도신초-성남중-성남고-(디지털문예대)-LG-KT-경찰",
-  "debut": "14LG",
-  "playerId": "64166",
-  "roles": [
-   "hitter"
-  ]
- },
  "64115": {
   "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/64115.jpg",
   "name": "장준원",
@@ -1212,16 +1198,16 @@
    "hitter"
   ]
  },
- "53057": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/53057.jpg",
-  "name": "손민석",
-  "backNo": "57",
-  "birth": "2004년 06월 21일",
-  "position": "내야수(우투좌타)",
-  "body": "177cm/70kg",
-  "career": "감천초-개성중-경남고",
-  "debut": "23KT",
-  "playerId": "53057",
+ "64166": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/64166.jpg",
+  "name": "배정대",
+  "backNo": "27",
+  "birth": "1995년 06월 12일",
+  "position": "외야수(우투우타)",
+  "body": "185cm/80kg",
+  "career": "도신초-성남중-성남고-(디지털문예대)-LG-KT-경찰",
+  "debut": "14LG",
+  "playerId": "64166",
   "roles": [
    "hitter"
   ]
@@ -1278,6 +1264,20 @@
   "career": "원종초(부천시리틀)-부천중-유신고",
   "debut": "20KT",
   "playerId": "50066",
+  "roles": [
+   "hitter"
+  ]
+ },
+ "53057": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/53057.jpg",
+  "name": "손민석",
+  "backNo": "57",
+  "birth": "2004년 06월 21일",
+  "position": "내야수(우투좌타)",
+  "body": "177cm/70kg",
+  "career": "감천초-개성중-경남고",
+  "debut": "23KT",
+  "playerId": "53057",
   "roles": [
    "hitter"
   ]
@@ -1379,6 +1379,21 @@
   "career": "성동초-휘문중-휘문고-LG-경찰-LG-삼성",
   "debut": "03LG",
   "playerId": "73117",
+  "roles": [
+   "hitter",
+   "pitcher"
+  ]
+ },
+ "67048": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/67048.jpg",
+  "name": "이정현",
+  "backNo": "21",
+  "birth": "1997년 12월 05일",
+  "position": "투수(우투우타)",
+  "body": "188cm/93kg",
+  "career": "무학초-마산동중-용마고",
+  "debut": "17KT",
+  "playerId": "67048",
   "roles": [
    "hitter",
    "pitcher"
@@ -1540,6 +1555,20 @@
    "hitter"
   ]
  },
+ "78122": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/78122.jpg",
+  "name": "김태군",
+  "backNo": "42",
+  "birth": "1989년 12월 30일",
+  "position": "포수(우투우타)",
+  "body": "182cm/92kg",
+  "career": "양정초-대동중-부산고-LG-NC-경찰-NC-삼성",
+  "debut": "08LG",
+  "playerId": "78122",
+  "roles": [
+   "hitter"
+  ]
+ },
  "65653": {
   "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/65653.jpg",
   "name": "김호령",
@@ -1550,20 +1579,6 @@
   "career": "관산초-안산중앙중-군산상고-동국대-KIA-경찰",
   "debut": "15KIA",
   "playerId": "65653",
-  "roles": [
-   "hitter"
-  ]
- },
- "62700": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/62700.jpg",
-  "name": "하주석",
-  "backNo": "30",
-  "birth": "1994년 02월 25일",
-  "position": "내야수(우투좌타)",
-  "body": "185cm/92kg",
-  "career": "강남초-덕수중-신일고-한화-상무-한화",
-  "debut": "12한화",
-  "playerId": "62700",
   "roles": [
    "hitter"
   ]
@@ -1582,16 +1597,16 @@
    "hitter"
   ]
  },
- "78122": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/78122.jpg",
-  "name": "김태군",
-  "backNo": "42",
-  "birth": "1989년 12월 30일",
-  "position": "포수(우투우타)",
-  "body": "182cm/92kg",
-  "career": "양정초-대동중-부산고-LG-NC-경찰-NC-삼성",
-  "debut": "08LG",
-  "playerId": "78122",
+ "62700": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/62700.jpg",
+  "name": "하주석",
+  "backNo": "30",
+  "birth": "1994년 02월 25일",
+  "position": "내야수(우투좌타)",
+  "body": "185cm/92kg",
+  "career": "강남초-덕수중-신일고-한화-상무-한화",
+  "debut": "12한화",
+  "playerId": "62700",
   "roles": [
    "hitter"
   ]
@@ -1666,20 +1681,6 @@
    "hitter"
   ]
  },
- "68504": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/68504.jpg",
-  "name": "이호연",
-  "backNo": "36",
-  "birth": "1995년 06월 03일",
-  "position": "내야수(우투좌타)",
-  "body": "177cm/87kg",
-  "career": "광주수창초-진흥중-광주제일고-성균관대-롯데-KT",
-  "debut": "18롯데",
-  "playerId": "68504",
-  "roles": [
-   "hitter"
-  ]
- },
  "69636": {
   "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/69636.jpg",
   "name": "오선우",
@@ -1690,6 +1691,20 @@
   "career": "성동초-자양중-배명고-인하대",
   "debut": "19KIA",
   "playerId": "69636",
+  "roles": [
+   "hitter"
+  ]
+ },
+ "68504": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/68504.jpg",
+  "name": "이호연",
+  "backNo": "36",
+  "birth": "1995년 06월 03일",
+  "position": "내야수(우투좌타)",
+  "body": "177cm/87kg",
+  "career": "광주수창초-진흥중-광주제일고-성균관대-롯데-KT",
+  "debut": "18롯데",
+  "playerId": "68504",
   "roles": [
    "hitter"
   ]
@@ -1762,6 +1777,21 @@
   "playerId": "61353",
   "roles": [
    "hitter"
+  ]
+ },
+ "53609": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/53609.jpg",
+  "name": "곽도규",
+  "backNo": "0",
+  "birth": "2004년 04월 12일",
+  "position": "투수(좌투좌타)",
+  "body": "185cm/90kg",
+  "career": "도척초-공주중-공주고",
+  "debut": "23KIA",
+  "playerId": "53609",
+  "roles": [
+   "hitter",
+   "pitcher"
   ]
  },
  "65769": {
@@ -2008,16 +2038,16 @@
    "hitter"
   ]
  },
- "79231": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/79231.jpg",
-  "name": "정수빈",
-  "backNo": "31",
-  "birth": "1990년 10월 07일",
-  "position": "외야수(좌투좌타)",
-  "body": "175cm/70kg",
-  "career": "수원신곡초-수원북중-유신고-두산-경찰",
-  "debut": "09두산",
-  "playerId": "79231",
+ "56236": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56236.jpg",
+  "name": "세베리노",
+  "backNo": "36",
+  "birth": "1999년 10월 03일",
+  "position": "내야수(우투양타)",
+  "body": "183cm/85kg",
+  "career": "도미니카 Ivan Guzman Klang(고)",
+  "debut": "26두산",
+  "playerId": "56236",
   "roles": [
    "hitter"
   ]
@@ -2032,6 +2062,20 @@
   "career": "성내초(강동구리틀)-배재중-서울고",
   "debut": "21두산",
   "playerId": "51203",
+  "roles": [
+   "hitter"
+  ]
+ },
+ "79231": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/79231.jpg",
+  "name": "정수빈",
+  "backNo": "31",
+  "birth": "1990년 10월 07일",
+  "position": "외야수(좌투좌타)",
+  "body": "175cm/70kg",
+  "career": "수원신곡초-수원북중-유신고-두산-경찰",
+  "debut": "09두산",
+  "playerId": "79231",
   "roles": [
    "hitter"
   ]
@@ -2064,34 +2108,6 @@
    "hitter"
   ]
  },
- "56236": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56236.jpg",
-  "name": "세베리노",
-  "backNo": "36",
-  "birth": "1999년 10월 03일",
-  "position": "내야수(우투양타)",
-  "body": "183cm/85kg",
-  "career": "도미니카 Ivan Guzman Klang(고)",
-  "debut": "26두산",
-  "playerId": "56236",
-  "roles": [
-   "hitter"
-  ]
- },
- "53404": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/53404.jpg",
-  "name": "류승민",
-  "backNo": "14",
-  "birth": "2004년 10월 11일",
-  "position": "외야수(좌투좌타)",
-  "body": "185cm/90kg",
-  "career": "광주화정초-무등중-광주제일고-삼성-상무-삼성",
-  "debut": "23삼성",
-  "playerId": "53404",
-  "roles": [
-   "hitter"
-  ]
- },
  "66112": {
   "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/66112.jpg",
   "name": "김기연",
@@ -2102,6 +2118,20 @@
   "career": "광주수창초-진흥중-진흥고-LG",
   "debut": "17LG",
   "playerId": "66112",
+  "roles": [
+   "hitter"
+  ]
+ },
+ "69238": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/69238.jpg",
+  "name": "김대한",
+  "backNo": "32",
+  "birth": "2000년 12월 06일",
+  "position": "외야수(우투우타)",
+  "body": "185cm/83kg",
+  "career": "숭인초(강북구리틀)-덕수중-휘문고",
+  "debut": "19두산",
+  "playerId": "69238",
   "roles": [
    "hitter"
   ]
@@ -2120,16 +2150,16 @@
    "hitter"
   ]
  },
- "69238": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/69238.jpg",
-  "name": "김대한",
-  "backNo": "32",
-  "birth": "2000년 12월 06일",
-  "position": "외야수(우투우타)",
-  "body": "185cm/83kg",
-  "career": "숭인초(강북구리틀)-덕수중-휘문고",
-  "debut": "19두산",
-  "playerId": "69238",
+ "53404": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/53404.jpg",
+  "name": "류승민",
+  "backNo": "14",
+  "birth": "2004년 10월 11일",
+  "position": "외야수(좌투좌타)",
+  "body": "185cm/90kg",
+  "career": "광주화정초-무등중-광주제일고-삼성-상무-삼성",
+  "debut": "23삼성",
+  "playerId": "53404",
   "roles": [
    "hitter"
   ]
@@ -2524,20 +2554,6 @@
    "hitter"
   ]
  },
- "54730": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/54730.jpg",
-  "name": "페라자",
-  "backNo": "30",
-  "birth": "1998년 11월 10일",
-  "position": "외야수(우투양타)",
-  "body": "175cm/88kg",
-  "career": "베네수엘라 San Isidro Labrador(고)",
-  "debut": "24한화",
-  "playerId": "54730",
-  "roles": [
-   "hitter"
-  ]
- },
  "79192": {
   "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/79192.jpg",
   "name": "채은성",
@@ -2548,6 +2564,20 @@
   "career": "순천북초-순천이수중-효천고-LG",
   "debut": "14LG",
   "playerId": "79192",
+  "roles": [
+   "hitter"
+  ]
+ },
+ "54730": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/54730.jpg",
+  "name": "페라자",
+  "backNo": "30",
+  "birth": "1998년 11월 10일",
+  "position": "외야수(우투양타)",
+  "body": "175cm/88kg",
+  "career": "베네수엘라 San Isidro Labrador(고)",
+  "debut": "24한화",
+  "playerId": "54730",
   "roles": [
    "hitter"
   ]
@@ -2880,20 +2910,6 @@
    "hitter"
   ]
  },
- "67905": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/67905.jpg",
-  "name": "천재환",
-  "backNo": "23",
-  "birth": "1994년 04월 01일",
-  "position": "외야수(우투우타)",
-  "body": "181cm/83kg",
-  "career": "대전신흥초-공주중-화순고-고려대",
-  "debut": "22NC",
-  "playerId": "67905",
-  "roles": [
-   "hitter"
-  ]
- },
  "63260": {
   "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/63260.jpg",
   "name": "이우성",
@@ -2918,6 +2934,20 @@
   "career": "가야초-개성중-부산고-(영남사이버대)-KT-롯데-상무-롯데",
   "debut": "14KT",
   "playerId": "64022",
+  "roles": [
+   "hitter"
+  ]
+ },
+ "67905": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/67905.jpg",
+  "name": "천재환",
+  "backNo": "23",
+  "birth": "1994년 04월 01일",
+  "position": "외야수(우투우타)",
+  "body": "181cm/83kg",
+  "career": "대전신흥초-공주중-화순고-고려대",
+  "debut": "22NC",
+  "playerId": "67905",
   "roles": [
    "hitter"
   ]
@@ -3288,20 +3318,6 @@
    "hitter"
   ]
  },
- "55563": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/55563.jpg",
-  "name": "박재엽",
-  "backNo": "26",
-  "birth": "2006년 01월 23일",
-  "position": "포수(우투우타)",
-  "body": "184cm/92kg",
-  "career": "부산대연초-개성중-부산고",
-  "debut": "25롯데",
-  "playerId": "55563",
-  "roles": [
-   "hitter"
-  ]
- },
  "53568": {
   "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/53568.jpg",
   "name": "정대선",
@@ -3316,16 +3332,16 @@
    "hitter"
   ]
  },
- "54529": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/54529.jpg",
-  "name": "레이예스",
-  "backNo": "29",
-  "birth": "1994년 10월 05일",
-  "position": "외야수(우투양타)",
-  "body": "196cm/87kg",
-  "career": "베네수엘라 Dr. Felipe Guevara(고)",
-  "debut": "24롯데",
-  "playerId": "54529",
+ "55563": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/55563.jpg",
+  "name": "박재엽",
+  "backNo": "26",
+  "birth": "2006년 01월 23일",
+  "position": "포수(우투우타)",
+  "body": "184cm/92kg",
+  "career": "부산대연초-개성중-부산고",
+  "debut": "25롯데",
+  "playerId": "55563",
   "roles": [
    "hitter"
   ]
@@ -3340,6 +3356,20 @@
   "career": "성동초-건대부중-장충고-고려대",
   "debut": "25롯데",
   "playerId": "55509",
+  "roles": [
+   "hitter"
+  ]
+ },
+ "54529": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/54529.jpg",
+  "name": "레이예스",
+  "backNo": "29",
+  "birth": "1994년 10월 05일",
+  "position": "외야수(우투양타)",
+  "body": "196cm/87kg",
+  "career": "베네수엘라 Dr. Felipe Guevara(고)",
+  "debut": "24롯데",
+  "playerId": "54529",
   "roles": [
    "hitter"
   ]
@@ -3372,20 +3402,6 @@
    "hitter"
   ]
  },
- "52516": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/52516.jpg",
-  "name": "조세진",
-  "backNo": "12",
-  "birth": "2003년 11월 21일",
-  "position": "외야수(우투우타)",
-  "body": "181cm/86kg",
-  "career": "장안초(성남중원구리틀)-선린중-서울고-롯데-상무",
-  "debut": "22롯데",
-  "playerId": "52516",
-  "roles": [
-   "hitter"
-  ]
- },
  "50500": {
   "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/50500.jpg",
   "name": "황성빈",
@@ -3396,6 +3412,20 @@
   "career": "관산초-안산중앙중-소래고-경남대",
   "debut": "22롯데",
   "playerId": "50500",
+  "roles": [
+   "hitter"
+  ]
+ },
+ "52516": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/52516.jpg",
+  "name": "조세진",
+  "backNo": "12",
+  "birth": "2003년 11월 21일",
+  "position": "외야수(우투우타)",
+  "body": "181cm/86kg",
+  "career": "장안초(성남중원구리틀)-선린중-서울고-롯데-상무",
+  "debut": "22롯데",
+  "playerId": "52516",
   "roles": [
    "hitter"
   ]
@@ -3414,20 +3444,6 @@
    "hitter"
   ]
  },
- "51551": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/51551.jpg",
-  "name": "나승엽",
-  "backNo": "51",
-  "birth": "2002년 02월 15일",
-  "position": "내야수(우투좌타)",
-  "body": "190cm/82kg",
-  "career": "남정초-선린중-덕수고-롯데-상무",
-  "debut": "21롯데",
-  "playerId": "51551",
-  "roles": [
-   "hitter"
-  ]
- },
  "68205": {
   "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/68205.jpg",
   "name": "전민재",
@@ -3442,16 +3458,16 @@
    "hitter"
   ]
  },
- "52504": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/52504.jpg",
-  "name": "김동혁",
-  "backNo": "50",
-  "birth": "2000년 09월 15일",
-  "position": "외야수(좌투좌타)",
-  "body": "177cm/77kg",
-  "career": "서화초-상인천중-제물포고-강릉영동대",
-  "debut": "23롯데",
-  "playerId": "52504",
+ "51551": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/51551.jpg",
+  "name": "나승엽",
+  "backNo": "51",
+  "birth": "2002년 02월 15일",
+  "position": "내야수(우투좌타)",
+  "body": "190cm/82kg",
+  "career": "남정초-선린중-덕수고-롯데-상무",
+  "debut": "21롯데",
+  "playerId": "51551",
   "roles": [
    "hitter"
   ]
@@ -3494,6 +3510,20 @@
   "career": "역삼초-언북중-덕수고-롯데-상무",
   "debut": "22롯데",
   "playerId": "52568",
+  "roles": [
+   "hitter"
+  ]
+ },
+ "52504": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/52504.jpg",
+  "name": "김동혁",
+  "backNo": "50",
+  "birth": "2000년 09월 15일",
+  "position": "외야수(좌투좌타)",
+  "body": "177cm/77kg",
+  "career": "서화초-상인천중-제물포고-강릉영동대",
+  "debut": "23롯데",
+  "playerId": "52504",
   "roles": [
    "hitter"
   ]
@@ -3596,6 +3626,20 @@
    "hitter"
   ]
  },
+ "52514": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/52514.jpg",
+  "name": "김세민",
+  "backNo": "5",
+  "birth": "2003년 06월 14일",
+  "position": "내야수(우투우타)",
+  "body": "183cm/78kg",
+  "career": "강릉중앙초-하슬라중-강릉고",
+  "debut": "22롯데",
+  "playerId": "52514",
+  "roles": [
+   "hitter"
+  ]
+ },
  "68518": {
   "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/68518.jpg",
   "name": "정보근",
@@ -3620,20 +3664,6 @@
   "career": "인천병방초(인천서구리틀)-재능중-제물포고-부산과학기술대",
   "debut": "25롯데",
   "playerId": "55502",
-  "roles": [
-   "hitter"
-  ]
- },
- "52514": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/52514.jpg",
-  "name": "김세민",
-  "backNo": "5",
-  "birth": "2003년 06월 14일",
-  "position": "내야수(우투우타)",
-  "body": "183cm/78kg",
-  "career": "강릉중앙초-하슬라중-강릉고",
-  "debut": "22롯데",
-  "playerId": "52514",
   "roles": [
    "hitter"
   ]
@@ -4093,6 +4123,20 @@
    "hitter"
   ]
  },
+ "56811": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56811.jpg",
+  "name": "안재연",
+  "backNo": "62",
+  "birth": "2003년 04월 10일",
+  "position": "내야수(우투좌타)",
+  "body": "177cm/83kg",
+  "career": "구남초-건대부중-장충고-고려대",
+  "debut": "26SSG",
+  "playerId": "56811",
+  "roles": [
+   "hitter"
+  ]
+ },
  "62895": {
   "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/62895.jpg",
   "name": "한유섬",
@@ -4131,20 +4175,6 @@
   "career": "미국 Colorado Mesa(대)-SSG",
   "debut": "26SSG",
   "playerId": "56813",
-  "roles": [
-   "hitter"
-  ]
- },
- "56811": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56811.jpg",
-  "name": "안재연",
-  "backNo": "62",
-  "birth": "2003년 04월 10일",
-  "position": "내야수(우투좌타)",
-  "body": "177cm/83kg",
-  "career": "구남초-건대부중-장충고-고려대",
-  "debut": "26SSG",
-  "playerId": "56811",
   "roles": [
    "hitter"
   ]
@@ -4488,20 +4518,6 @@
    "hitter"
   ]
  },
- "65898": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/65898.jpg",
-  "name": "김웅빈",
-  "backNo": "10",
-  "birth": "1996년 02월 09일",
-  "position": "내야수(우투좌타)",
-  "body": "182cm/97kg",
-  "career": "서라벌초-울산제일중-울산공고-히어로즈-상무",
-  "debut": "16넥센",
-  "playerId": "65898",
-  "roles": [
-   "hitter"
-  ]
- },
  "50167": {
   "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/50167.jpg",
   "name": "이주형",
@@ -4512,6 +4528,20 @@
   "career": "송수초(해운대리틀)-센텀중-경남고-LG",
   "debut": "20LG",
   "playerId": "50167",
+  "roles": [
+   "hitter"
+  ]
+ },
+ "65898": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/65898.jpg",
+  "name": "김웅빈",
+  "backNo": "10",
+  "birth": "1996년 02월 09일",
+  "position": "내야수(우투좌타)",
+  "body": "182cm/97kg",
+  "career": "서라벌초-울산제일중-울산공고-히어로즈-상무",
+  "debut": "16넥센",
+  "playerId": "65898",
   "roles": [
    "hitter"
   ]
@@ -4530,20 +4560,6 @@
    "hitter"
   ]
  },
- "55371": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/55371.jpg",
-  "name": "권혁빈",
-  "backNo": "00",
-  "birth": "2005년 11월 04일",
-  "position": "내야수(우투우타)",
-  "body": "185cm/75kg",
-  "career": "칠성초-경상중-대구고",
-  "debut": "25키움",
-  "playerId": "55371",
-  "roles": [
-   "hitter"
-  ]
- },
  "54394": {
   "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/54394.jpg",
   "name": "송지후",
@@ -4554,6 +4570,20 @@
   "career": "광주수창초-진흥중-광주제일고",
   "debut": "24키움",
   "playerId": "54394",
+  "roles": [
+   "hitter"
+  ]
+ },
+ "55371": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/55371.jpg",
+  "name": "권혁빈",
+  "backNo": "00",
+  "birth": "2005년 11월 04일",
+  "position": "내야수(우투우타)",
+  "body": "185cm/75kg",
+  "career": "칠성초-경상중-대구고",
+  "debut": "25키움",
+  "playerId": "55371",
   "roles": [
    "hitter"
   ]
@@ -5663,20 +5693,6 @@
    "pitcher"
   ]
  },
- "67048": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/67048.jpg",
-  "name": "이정현",
-  "backNo": "21",
-  "birth": "1997년 12월 05일",
-  "position": "투수(우투우타)",
-  "body": "188cm/93kg",
-  "career": "무학초-마산동중-용마고",
-  "debut": "17KT",
-  "playerId": "67048",
-  "roles": [
-   "pitcher"
-  ]
- },
  "56002": {
   "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56002.jpg",
   "name": "대니엘",
@@ -5733,20 +5749,6 @@
    "pitcher"
   ]
  },
- "50030": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/50030.jpg",
-  "name": "소형준",
-  "backNo": "30",
-  "birth": "2001년 09월 16일",
-  "position": "투수(우투우타)",
-  "body": "189cm/92kg",
-  "career": "호암초(의정부리틀)-구리인창중-유신고",
-  "debut": "20KT",
-  "playerId": "50030",
-  "roles": [
-   "pitcher"
-  ]
- },
  "65516": {
   "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/65516.jpg",
   "name": "배제성",
@@ -5757,6 +5759,20 @@
   "career": "백마초-성남중-성남고-롯데-KT-상무",
   "debut": "15롯데",
   "playerId": "65516",
+  "roles": [
+   "pitcher"
+  ]
+ },
+ "50030": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/50030.jpg",
+  "name": "소형준",
+  "backNo": "30",
+  "birth": "2001년 09월 16일",
+  "position": "투수(우투우타)",
+  "body": "189cm/92kg",
+  "career": "호암초(의정부리틀)-구리인창중-유신고",
+  "debut": "20KT",
+  "playerId": "50030",
   "roles": [
    "pitcher"
   ]
@@ -5925,20 +5941,6 @@
   "career": "효제초-홍은중-장충고-롯데-KIA-상무",
   "debut": "19롯데",
   "playerId": "69516",
-  "roles": [
-   "pitcher"
-  ]
- },
- "53609": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/53609.jpg",
-  "name": "곽도규",
-  "backNo": "0",
-  "birth": "2004년 04월 12일",
-  "position": "투수(좌투좌타)",
-  "body": "185cm/90kg",
-  "career": "도척초-공주중-공주고",
-  "debut": "23KIA",
-  "playerId": "53609",
   "roles": [
    "pitcher"
   ]
@@ -6209,20 +6211,6 @@
    "pitcher"
   ]
  },
- "68220": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/68220.jpg",
-  "name": "곽빈",
-  "backNo": "47",
-  "birth": "1999년 05월 28일",
-  "position": "투수(우투우타)",
-  "body": "187cm/95kg",
-  "career": "서울학동초-자양중-배명고",
-  "debut": "18두산",
-  "playerId": "68220",
-  "roles": [
-   "pitcher"
-  ]
- },
  "54263": {
   "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/54263.jpg",
   "name": "김택연",
@@ -6233,6 +6221,20 @@
   "career": "동막초-상인천중-인천고",
   "debut": "24두산",
   "playerId": "54263",
+  "roles": [
+   "pitcher"
+  ]
+ },
+ "68220": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/68220.jpg",
+  "name": "곽빈",
+  "backNo": "47",
+  "birth": "1999년 05월 28일",
+  "position": "투수(우투우타)",
+  "body": "187cm/95kg",
+  "career": "서울학동초-자양중-배명고",
+  "debut": "18두산",
+  "playerId": "68220",
   "roles": [
    "pitcher"
   ]
@@ -6545,20 +6547,6 @@
    "pitcher"
   ]
  },
- "52731": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/52731.jpg",
-  "name": "박준영",
-  "backNo": "96",
-  "birth": "2003년 03월 02일",
-  "position": "투수(우투우타)",
-  "body": "190cm/103kg",
-  "career": "청주우암초(청주시리틀)-세광중-세광고",
-  "debut": "22한화",
-  "playerId": "52731",
-  "roles": [
-   "pitcher"
-  ]
- },
  "65707": {
   "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/65707.jpg",
   "name": "주현상",
@@ -6569,6 +6557,20 @@
   "career": "청주우암초-청주중-청주고-동아대",
   "debut": "15한화",
   "playerId": "65707",
+  "roles": [
+   "pitcher"
+  ]
+ },
+ "52731": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/52731.jpg",
+  "name": "박준영",
+  "backNo": "96",
+  "birth": "2003년 03월 02일",
+  "position": "투수(우투우타)",
+  "body": "190cm/103kg",
+  "career": "청주우암초(청주시리틀)-세광중-세광고",
+  "debut": "22한화",
+  "playerId": "52731",
   "roles": [
    "pitcher"
   ]
@@ -6643,6 +6645,20 @@
    "pitcher"
   ]
  },
+ "56799": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56799.jpg",
+  "name": "짐머맨",
+  "backNo": "12",
+  "birth": "1995년 02월 09일",
+  "position": "투수(좌투좌타)",
+  "body": "190cm/107kg",
+  "career": "미국 Mount Olive(대)",
+  "debut": "26한화",
+  "playerId": "56799",
+  "roles": [
+   "pitcher"
+  ]
+ },
  "69205": {
   "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/69205.jpg",
   "name": "이교훈",
@@ -6667,20 +6683,6 @@
   "career": "서울도곡초-글로벌선진중-충암고",
   "debut": "26한화",
   "playerId": "50710",
-  "roles": [
-   "pitcher"
-  ]
- },
- "56799": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56799.jpg",
-  "name": "짐머맨",
-  "backNo": "12",
-  "birth": "1995년 02월 09일",
-  "position": "투수(좌투좌타)",
-  "body": "190cm/107kg",
-  "career": "미국 Mount Olive(대)",
-  "debut": "26한화",
-  "playerId": "56799",
   "roles": [
    "pitcher"
   ]
@@ -6713,20 +6715,6 @@
    "pitcher"
   ]
  },
- "60263": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/60263.jpg",
-  "name": "이재학",
-  "backNo": "51",
-  "birth": "1990년 10월 04일",
-  "position": "투수(우언우타)",
-  "body": "181cm/84kg",
-  "career": "대구옥산초-경복중-대구고-두산",
-  "debut": "10두산",
-  "playerId": "60263",
-  "roles": [
-   "pitcher"
-  ]
- },
  "53919": {
   "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/53919.jpg",
   "name": "신영우",
@@ -6741,16 +6729,16 @@
    "pitcher"
   ]
  },
- "69994": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/69994.jpg",
-  "name": "박지한",
-  "backNo": "56",
-  "birth": "2000년 10월 21일",
-  "position": "투수(좌투좌타)",
-  "body": "185cm/90kg",
-  "career": "동일중앙초-부산중-개성고",
-  "debut": "26NC",
-  "playerId": "69994",
+ "60263": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/60263.jpg",
+  "name": "이재학",
+  "backNo": "51",
+  "birth": "1990년 10월 04일",
+  "position": "투수(우언우타)",
+  "body": "181cm/84kg",
+  "career": "대구옥산초-경복중-대구고-두산",
+  "debut": "10두산",
+  "playerId": "60263",
   "roles": [
    "pitcher"
   ]
@@ -6765,6 +6753,20 @@
   "career": "미국 Louisville(대)",
   "debut": "25NC",
   "playerId": "55903",
+  "roles": [
+   "pitcher"
+  ]
+ },
+ "69994": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/69994.jpg",
+  "name": "박지한",
+  "backNo": "56",
+  "birth": "2000년 10월 21일",
+  "position": "투수(좌투좌타)",
+  "body": "185cm/90kg",
+  "career": "동일중앙초-부산중-개성고",
+  "debut": "26NC",
+  "playerId": "69994",
   "roles": [
    "pitcher"
   ]
@@ -6811,20 +6813,6 @@
    "pitcher"
   ]
  },
- "69969": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/69969.jpg",
-  "name": "전사민",
-  "backNo": "57",
-  "birth": "1999년 07월 06일",
-  "position": "투수(우투우타)",
-  "body": "194cm/85kg",
-  "career": "연서초(부산동래구리틀)-대신중-부산정보고-NC-상무",
-  "debut": "19NC",
-  "playerId": "69969",
-  "roles": [
-   "pitcher"
-  ]
- },
  "68900": {
   "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/68900.jpg",
   "name": "김영규",
@@ -6835,6 +6823,20 @@
   "career": "광주서석초-무등중-광주제일고",
   "debut": "18NC",
   "playerId": "68900",
+  "roles": [
+   "pitcher"
+  ]
+ },
+ "69969": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/69969.jpg",
+  "name": "전사민",
+  "backNo": "57",
+  "birth": "1999년 07월 06일",
+  "position": "투수(우투우타)",
+  "body": "194cm/85kg",
+  "career": "연서초(부산동래구리틀)-대신중-부산정보고-NC-상무",
+  "debut": "19NC",
+  "playerId": "69969",
   "roles": [
    "pitcher"
   ]
@@ -6993,6 +6995,20 @@
    "pitcher"
   ]
  },
+ "54904": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/54904.jpg",
+  "name": "손주환",
+  "backNo": "46",
+  "birth": "2002년 01월 05일",
+  "position": "투수(우투우타)",
+  "body": "177cm/85kg",
+  "career": "영천초-신정중-물금고-동아대",
+  "debut": "24NC",
+  "playerId": "54904",
+  "roles": [
+   "pitcher"
+  ]
+ },
  "67954": {
   "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/67954.jpg",
   "name": "김진호",
@@ -7017,20 +7033,6 @@
   "career": "길동초-건대부중-장충고",
   "debut": "25NC",
   "playerId": "54906",
-  "roles": [
-   "pitcher"
-  ]
- },
- "54904": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/54904.jpg",
-  "name": "손주환",
-  "backNo": "46",
-  "birth": "2002년 01월 05일",
-  "position": "투수(우투우타)",
-  "body": "177cm/85kg",
-  "career": "영천초-신정중-물금고-동아대",
-  "debut": "24NC",
-  "playerId": "54904",
   "roles": [
    "pitcher"
   ]
@@ -7105,6 +7107,20 @@
    "pitcher"
   ]
  },
+ "53540": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/53540.jpg",
+  "name": "김기준",
+  "backNo": "47",
+  "birth": "2004년 04월 16일",
+  "position": "투수(우투우타)",
+  "body": "188cm/90kg",
+  "career": "대해초-대구중-경북고",
+  "debut": "26롯데",
+  "playerId": "53540",
+  "roles": [
+   "pitcher"
+  ]
+ },
  "56554": {
   "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56554.jpg",
   "name": "이준서",
@@ -7119,16 +7135,16 @@
    "pitcher"
   ]
  },
- "53540": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/53540.jpg",
-  "name": "김기준",
-  "backNo": "47",
-  "birth": "2004년 04월 16일",
+ "53562": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/53562.jpg",
+  "name": "이진하",
+  "backNo": "45",
+  "birth": "2004년 06월 02일",
   "position": "투수(우투우타)",
-  "body": "188cm/90kg",
-  "career": "대해초-대구중-경북고",
-  "debut": "26롯데",
-  "playerId": "53540",
+  "body": "191cm/96kg",
+  "career": "백송초(일산리틀)-영남중-장충고-롯데-상무",
+  "debut": "23롯데",
+  "playerId": "53562",
   "roles": [
    "pitcher"
   ]
@@ -7175,20 +7191,6 @@
    "pitcher"
   ]
  },
- "53562": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/53562.jpg",
-  "name": "이진하",
-  "backNo": "45",
-  "birth": "2004년 06월 02일",
-  "position": "투수(우투우타)",
-  "body": "191cm/96kg",
-  "career": "백송초(일산리틀)-영남중-장충고-롯데-상무",
-  "debut": "23롯데",
-  "playerId": "53562",
-  "roles": [
-   "pitcher"
-  ]
- },
  "67539": {
   "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/67539.jpg",
   "name": "나균안",
@@ -7199,20 +7201,6 @@
   "career": "무학초-창원신월중-용마고",
   "debut": "17롯데",
   "playerId": "67539",
-  "roles": [
-   "pitcher"
-  ]
- },
- "56523": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56523.jpg",
-  "name": "비슬리",
-  "backNo": "23",
-  "birth": "1995년 11월 20일",
-  "position": "투수(우투우타)",
-  "body": "188cm/106kg",
-  "career": "미국 ToombsCounty(고)-미국 Clemson(대)",
-  "debut": "26롯데",
-  "playerId": "56523",
   "roles": [
    "pitcher"
   ]
@@ -7283,6 +7271,20 @@
   "career": "동일초(도봉구리틀)-청원중-청원고-홍익대-롯데-상무",
   "debut": "14롯데",
   "playerId": "63543",
+  "roles": [
+   "pitcher"
+  ]
+ },
+ "56523": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56523.jpg",
+  "name": "비슬리",
+  "backNo": "23",
+  "birth": "1995년 11월 20일",
+  "position": "투수(우투우타)",
+  "body": "188cm/106kg",
+  "career": "미국 ToombsCounty(고)-미국 Clemson(대)",
+  "debut": "26롯데",
+  "playerId": "56523",
   "roles": [
    "pitcher"
   ]
@@ -7423,6 +7425,20 @@
   "career": "대구수창초-대구중-경북고-삼성",
   "debut": "16삼성",
   "playerId": "66451",
+  "roles": [
+   "pitcher"
+  ]
+ },
+ "55507": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/55507.jpg",
+  "name": "김태균",
+  "backNo": "14",
+  "birth": "2006년 07월 31일",
+  "position": "투수(우투우타)",
+  "body": "191cm/97kg",
+  "career": "(부산동래구리틀)-대신중-경남고",
+  "debut": "26롯데",
+  "playerId": "55507",
   "roles": [
    "pitcher"
   ]
@@ -7861,20 +7877,6 @@
    "pitcher"
   ]
  },
- "56318": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56318.jpg",
-  "name": "박준현",
-  "backNo": "18",
-  "birth": "2007년 08월 29일",
-  "position": "투수(우투우타)",
-  "body": "188cm/95kg",
-  "career": "율하초-경상중-북일고",
-  "debut": "26키움",
-  "playerId": "56318",
-  "roles": [
-   "pitcher"
-  ]
- },
  "56334": {
   "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56334.jpg",
   "name": "와일스",
@@ -7899,6 +7901,20 @@
   "career": "양정초-대천중-제주고-LG",
   "debut": "19LG",
   "playerId": "67116",
+  "roles": [
+   "pitcher"
+  ]
+ },
+ "56318": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56318.jpg",
+  "name": "박준현",
+  "backNo": "18",
+  "birth": "2007년 08월 29일",
+  "position": "투수(우투우타)",
+  "body": "188cm/95kg",
+  "career": "율하초-경상중-북일고",
+  "debut": "26키움",
+  "playerId": "56318",
   "roles": [
    "pitcher"
   ]
@@ -7931,20 +7947,6 @@
    "pitcher"
   ]
  },
- "51301": {
-  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/51301.jpg",
-  "name": "김성진",
-  "backNo": "21",
-  "birth": "1997년 11월 14일",
-  "position": "투수(우투좌타)",
-  "body": "183cm/77kg",
-  "career": "율하초-포항제철중-부산정보고-계명대",
-  "debut": "21키움",
-  "playerId": "51301",
-  "roles": [
-   "pitcher"
-  ]
- },
  "76118": {
   "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/76118.jpg",
   "name": "원종현",
@@ -7955,6 +7957,20 @@
   "career": "군산중앙초-군산중-군산상고-LG-경찰-NC",
   "debut": "06LG",
   "playerId": "76118",
+  "roles": [
+   "pitcher"
+  ]
+ },
+ "51301": {
+  "photo": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/51301.jpg",
+  "name": "김성진",
+  "backNo": "21",
+  "birth": "1997년 11월 14일",
+  "position": "투수(우투좌타)",
+  "body": "183cm/77kg",
+  "career": "율하초-포항제철중-부산정보고-계명대",
+  "debut": "21키움",
+  "playerId": "51301",
   "roles": [
    "pitcher"
   ]
